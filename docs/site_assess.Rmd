@@ -1,0 +1,106 @@
+---
+title: CCHA site assessments
+author: "MW Beck"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, echo = T, message = F, warning = F}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+
+box::use(
+  here[...], 
+  ggplot2[...], 
+  tidyr[...],
+  dplyr[...], 
+  ggridges[...],
+  reactable[...],
+  lubridate[ymd, year], 
+  stringr[str_wrap],
+  forcats[fct_reorder2], 
+  htmltools[h5], 
+  htmlwidgets[prependContent]
+)
+
+source(here('R/funcs.R'))
+
+load(file = here('data/vegdat.RData'))
+load(file = here('data/treedat.RData'))
+
+thm <- theme_minimal(base_size = 14) + 
+  theme(
+    panel.grid.minor = element_blank() 
+  )
+
+# test args
+site <- 'Cockroach'
+sp <- 'Avicennia germinans'
+```
+
+Plot showing number of times a zone was identified across transects, dates.
+
+```{r, fig.height = 5, fig.width = 7}
+zonecnt_plo(vegdat, thm)
+```
+
+An evaluation of a single species across all sites, can be shown as frequency occurrence across the transect or mean percent basal cover. This example shows frequency occurrence of *Avicennia germinans*. 
+
+```{r, fig.height = 4, fig.width = 12}
+sppsum_plo(vegdat, sp, var = 'fo', qrt = NULL, thm = thm)
+```
+
+And now average percent basal cover. 
+
+```{r, fig.height = 4, fig.width = 12}
+sppsum_plo(vegdat, sp, var = 'cover', thm = thm)
+```
+
+A table of species frequency occurrence by zone, over time: 
+
+```{r}
+sitezonesum_tab(vegdat, site = site)
+```
+
+Same thing but as percent basal cover.
+
+```{r}
+sitezonesum_tab(vegdat, site = site, var = 'cover')
+```
+
+A plot of sum of percent basal cover by arbitrary meter markings, top species, and across zones.
+
+```{r, fig.height = 6, fig.width = 10}
+sitesum_plo(vegdat, site, delim = 10, vegsel = 8, var = 'cover', thm = thm, delimtyp = 'Number')
+```
+
+A plot of sum of percent basal cover by arbitrary meter markings, top species, and for select zones.
+
+```{r, fig.height = 6, fig.width = 10}
+sitesum_plo(vegdat, site, delim = 10, vegsel = 8, var = 'cover', zonefct = c('A: Mangrove Fringe', 'G: Coastal Upland'), thm = thm,  delimtyp = 'Number')
+```
+
+Tabular summary of tree data by site, species.
+
+```{r}
+treesum_tab(treedat, site = site, byspecies = T, var = 'trees_ha')
+```
+
+Same table as above, but aggregated across species.
+
+```{r}
+treesum_tab(treedat, site = site, byspecies = F, var = 'trees_ha')
+```
+
+Tree summary plot by site, species.
+
+```{r, fig.height = 6, fig.width = 10}
+treesum_plo(treedat, site = site, byspecies = T, var = 'trees_ha', thm = thm)
+```
+
+Tree summary plot, but aggregated across species.
+
+```{r, fig.height = 6, fig.width = 10}
+treesum_plo(treedat, site = site, byspecies = F, var = 'trees_ha', thm = thm)
+```

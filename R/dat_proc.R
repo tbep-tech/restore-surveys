@@ -47,7 +47,7 @@ save(vegdat, file = here('data/vegdat.RData'))
 # data here https://docs.google.com/spreadsheets/d/18Zgvo9QjLJDYkK8LCBmWDIGN1NYmYTeHUr5W0BIfsLs/edit#gid=875019540
 id <- '18Zgvo9QjLJDYkK8LCBmWDIGN1NYmYTeHUr5W0BIfsLs'
 
-treeraw <- read_sheet(id, sheet = 'PCQ_Data',  col_types = 'cccccccccdcdcdddddcccccccc')
+treeraw <- read_sheet(id, sheet = 'PCQ_Data',  col_types = 'cccccccccdccddddddcccccccc')
 
 treedat <- treeraw %>% 
   select(
@@ -60,11 +60,10 @@ treedat <- treeraw %>%
     plot = `Plot #`,
     pcq_direction = `PCQ direction`, 
     species = `Tree species`,
-    # dist_to_tree_m = `Dist to tree (m)`, 
     dbh_cm = `DBH (cm)`, 
     tree_height = `Tree height (m)`, 
     eye_height_m = `Eye height (m)`, 
-    dist_from_tree_m = `Distance from tree (m)`, 
+    dist_to_tree_m = `Distance from center (m)`, 
     angle = `Angle`
   ) %>% 
   mutate(
