@@ -121,9 +121,8 @@ sitezonesum_tab <- function(vegdat, site, zone = NULL, qrt = NULL, var = c('fo',
 }
 
 #' summarize species at a site, across zones, used for tabular or graphical summary
-sitesum_fun <- function(vegdat, site, delim, delimtyp = c('Number', 'Distance'), vegsel, var = c('fo', 'cover'), zonefct = NULL, torm = NULL){
+sitesum_fun <- function(vegdat, site, vegsel = NULL, var = c('fo', 'cover'), zone = NULL, torm = NULL){
   
-  delimtyp <- match.arg(delimtyp)
   var <- match.arg(var)
   
   dat <- vegdat %>% 
@@ -143,44 +142,15 @@ sitesum_fun <- function(vegdat, site, delim, delimtyp = c('Number', 'Distance'),
   dat <- dat %>% 
     mutate(species = factor(species, levels = spp))
 
-  # get breaks and labels for meter cuts
-  delims <- unique(dat$meter) %>% 
-    as.numeric %>% 
-    range
-  
-  maxdelim <- max(dat$meter)
-  if(delimtyp == 'Number'){ 
-    delims <- seq(delims[1], delims[2], length.out = delim + 1)
-    lbs <- round(delims, 0)[-length(delims)]
-    lbs <- paste(lbs, c(lbs[-1], round(maxdelim, 0)), sep = '-')
-  }
-  
-  # this is junk because there's usually a remainder
-  if(delimtyp == 'Distance'){
-    delims <- seq(delims[1], delims[2], by = delim) %>% 
-      c(maxdelim) %>% 
-      unique
-    
-    lbs <- round(delims, 0)
-    lbs <- lbs[-length(lbs)]
-    lbs <- paste(lbs, c(lbs[-1], round(maxdelim, 0)), sep = '-')
-  }
-
   # filter by zones
-  if(!is.null(zonefct))
+  if(!is.null(zone))
     dat <- dat %>%
-      filter(zonefct %in% !!zonefct)
-
-  # add delimiter grouping
-  dat <- dat %>% 
-    mutate(
-      meter_grp = cut(meter, breaks = delims, labels = lbs, include.lowest = T, right = F)
-    ) 
+      filter(zone %in% !!zone)
   
   # cover
   if(var == 'cover')
     sums <- dat %>% 
-      group_by(trt, species, meter_grp) %>% 
+      group_by(trt, species, zone) %>% 
       summarize(yval = sum(pcent_basal_cover), .groups = 'drop') %>% 
       filter(yval > 0)
     
@@ -191,39 +161,41 @@ sitesum_fun <- function(vegdat, site, delim, delimtyp = c('Number', 'Distance'),
         pa = ifelse(pcent_basal_cover > 0, 1, 0)
       ) %>%
       unique %>%
-      group_by(trt, meter_grp, species) %>%
+      group_by(trt, zone, species) %>%
       summarise(
         yval = sum(pa) / n(),
         .groups = 'drop'
       ) %>% 
       filter(yval > 0)
 
+  out <- sums
+  
   # get selection to filter summaries by actual species list or count
-  sppflt <- vegsel
-  if(is.numeric(vegsel))
-    sppflt <- sums %>% 
-      group_by(species) %>% 
-      summarise(yval = sum(yval)) %>% 
-      arrange(-yval) %>% 
-      pull(species) %>% 
-      .[1:vegsel]
+  if(!is.null(vegsel)){
+    sppflt <- vegsel
+    if(is.numeric(vegsel))
+      sppflt <- sums %>% 
+        group_by(species) %>% 
+        summarise(yval = sum(yval)) %>% 
+        arrange(-yval) %>% 
+        pull(species) %>% 
+        .[1:vegsel]
+      
+    out <- sums %>% 
+      filter(species %in% sppflt)
     
-  out <- sums %>% 
-    filter(species %in% sppflt)
+  }
   
   return(out)
 
 }
 
 # plot results for sitesum_fun
-sitesum_plo <- function(vegdat, site, delim, delimtyp, vegsel, var = c('fo', 'cover'), zonefct = NULL, thm){
+sitesum_plo <- function(vegdat, site, vegsel, var = c('fo', 'cover'), zone = NULL, thm){
   
   var <- match.arg(var)
   
-  toplo <- sitesum_fun(vegdat, site, delim, delimtyp, vegsel, var, zonefct) %>% 
-    mutate(
-      trt = paste0('Year ', trt)
-    )
+  toplo <- sitesum_fun(vegdat, site, vegsel, var, zone)
   
   cols <- RColorBrewer::brewer.pal(9, 'Set1') %>% 
     colorRampPalette(.)
@@ -243,7 +215,7 @@ sitesum_plo <- function(vegdat, site, delim, delimtyp, vegsel, var = c('fo', 'co
   if(var == 'fo')
     ylab <- 'Freq. Occ. (%)'
   
-  p <- ggplot(toplo, aes(x = meter_grp, y = yval, fill = species)) + 
+  p <- ggplot(toplo, aes(x = zone, y = yval, fill = species)) + 
     geom_bar(stat = 'identity', color = 'black') + 
     scale_x_discrete(drop = F) +
     scale_fill_manual(values = colin, limits = force) +
@@ -254,7 +226,7 @@ sitesum_plo <- function(vegdat, site, delim, delimtyp, vegsel, var = c('fo', 'co
     ) +
     labs(
       y = ylab, 
-      x = 'Meter distance', 
+      x = 'Zone', 
       fill = leglab
     )
   
@@ -266,7 +238,7 @@ sitesum_plo <- function(vegdat, site, delim, delimtyp, vegsel, var = c('fo', 'co
 sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, thm){
   
   var <- match.arg(var)
-  browser()
+
   dat <- vegdat %>% 
     mutate(site = factor(site))
   
@@ -295,8 +267,8 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, thm){
     ylab <- 'Mean % basal cover (+/- 95% CI)'
     
     toplo <- dat %>%
-      select(site, trt, meter, species, pcent_basal_cover) %>% 
-      tidyr::complete(species, tidyr::nesting(site, trt, meter), fill = list(pcent_basal_cover = 0)) %>%
+      select(site, trt, zone, species, pcent_basal_cover) %>% 
+      tidyr::complete(species, tidyr::nesting(site, zone, meter), fill = list(pcent_basal_cover = 0)) %>%
       filter(species %in% !!sp) %>% 
       group_by(site, trt) %>% 
       summarise(
@@ -307,12 +279,6 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, thm){
       ) 
   
   }
-  
-  toplo <- toplo %>% 
-    mutate(
-      trt = paste('Year', trt),
-      trt = factor(trt)
-    )
     
   if(!is.null(sitefct))
     toplo <- toplo %>% 
