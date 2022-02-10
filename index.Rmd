@@ -345,17 +345,17 @@ Column {.tabset .tabset-fade data-width=700}
   
 ```{r}
 output$treeplo1 <- renderPlotly(treeplo1())
-fillCol(flex = c(NA, 1),
-  downloadBttn('treetabdl1', 'Download data', style = 'simple', block = T, color = 'success'),
-  reactableOutput('treetab1')
-)
+plotlyOutput('treeplo1')
 ```
 
 ### Tabular summary
 
 ```{r}
 output$treetab1 <- renderReactable(treetab1())
-reactableOutput('treetab1')
+fillCol(flex = c(NA, 1),
+  downloadBttn('treetabdl1', 'Download data', style = 'simple', block = T, color = 'success'),
+  reactableOutput('treetab1')
+)
 ```
 
 3 BETWEEN SITE COMPARISONS {data-navmenu="PAGE SELECTION"}
