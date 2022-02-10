@@ -82,7 +82,9 @@ sitezonesum_fun <- function(vegdat, site, zone = NULL, qrt = NULL, var = c('fo',
       )
   
   out <- out %>% 
-    filter(yval > 0)
+    filter(yval > 0) %>% 
+    pivot_wider(names_from = 'trt', values_from = 'yval', values_fill = NA) %>%
+    arrange(zone, species) 
      
   return(out)
   
@@ -98,10 +100,6 @@ sitezonesum_tab <- function(vegdat, site, zone = NULL, qrt = NULL, var = c('fo',
   ylab <- 'Mean basal % cover'
   if(var == 'fo')
     ylab <- '% Frequency Occurrence'
-
-  totab <- totab %>% 
-    pivot_wider(names_from = 'trt', values_from = 'yval', values_fill = NA) %>%
-    arrange(zone, species) 
   
   tab <- reactable(
     totab,
@@ -229,6 +227,14 @@ sitesum_plo <- function(vegdat, site, vegsel, var = c('fo', 'cover'), zone = NUL
       fill = leglab
     )
   
+  p <- ggplotly(p) %>% 
+    plotly::config(
+      toImageButtonOptions = list(
+        format = "svg",
+        filename = "myplot"
+      )
+    )
+  
   return(p)
   
 }
@@ -310,6 +316,14 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, qrt =
     p <- p + 
       geom_errorbar(aes(ymin = lov, ymax = hiv), position = dodge, width = 0)
 
+  p <- ggplotly(p) %>% 
+    plotly::config(
+      toImageButtonOptions = list(
+        format = "svg",
+        filename = "myplot"
+      )
+    )
+  
   return(p)
   
 }
@@ -481,7 +495,7 @@ treesum_tab <- function(treedat, site, byspecies = T, zone = NULL,
 }
 
 #' tree site summary plot
-treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, thm){
+treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, dodge = T, thm){
   
   toplo <- treesum_fun(treedat, site, byspecies, zone) %>% 
     filter(var %in% !!var)
@@ -495,9 +509,14 @@ treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, thm){
   
   leglab <- unique(toplo$varlab)
   
-  if(byspecies)
+  if(byspecies){
+  
+    pos <- 'stack'
+    if(dodge)
+      pos <- position_dodge2(width = 0.9, preserve = "single")
+      
     p <- ggplot(toplo, aes(x = zone, y = val, fill = species)) + 
-      geom_bar(stat = 'identity', color = 'black') + 
+      geom_col(stat = 'identity', color = 'black', position = pos) + 
       scale_x_discrete(drop = F, labels = function(x) str_wrap(x, width = 10)) +
       scale_fill_manual(values = colin, limits = force) +
       facet_wrap(~trt, ncol = 1, drop = F) + 
@@ -507,6 +526,8 @@ treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, thm){
         x = NULL, 
         fill = 'Species'
       )
+  
+  }
   
   if(!byspecies)
     p <- ggplot(toplo, aes(x = zone, y = val)) + 
@@ -519,6 +540,14 @@ treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, thm){
         x = NULL, 
         fill = 'Species'
       )
+  
+  p <- ggplotly(p) %>% 
+    plotly::config(
+      toImageButtonOptions = list(
+        format = "svg",
+        filename = "myplot"
+      )
+    )
   
   return(p)
   

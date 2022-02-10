@@ -52,36 +52,6 @@ sppopt <- unique(vegdat$species) %>%
 ```
 
 ```{r reactives}
-# year by site/zone
-sitplo1 <- reactive({
-  
-  # input
-  sitsel1 <- input$sitsel1
-  zonsel1 <- input$zonsel1
-  
-  req(zonsel1)
-  
-  out <- sitezonedst_plo1(vegdat, site = sitsel1, zonefct = zonsel1, thm)
-  
-  return(out)
-  
-})
-
-# distance by year/site
-sitplo2 <- reactive({
-  
-  # input
-  sitsel1 <- input$sitsel1
-  zonsel1 <- input$zonsel1
-  
-  req(zonsel1)
-  
-  out <- sitezonedst_plo2(vegdat, site = sitsel1, zonefct = zonsel1, thm)
-  
-  return(out)
-  
-})
-
 # tabular vegetation summary by site
 vegtab1 <- reactive({
   
@@ -89,28 +59,29 @@ vegtab1 <- reactive({
   sitsel2 <- input$sitsel2
   zonsel2 <- input$zonsel2
   varsel1 <- input$varsel1
-
+  
   req(zonsel2)
   
-  out <- sitezonesum_tab(vegdat, sitsel2, zonsel2, varsel1)
-
+  out <- sitezonesum_tab(vegdat, site = sitsel2, zone = zonsel2, var = varsel1)
+  
   return(out)
   
 })
 
-# summary plot by species, all sites
-vegplo1 <- reactive({
-  
+# tabular vegetation summary by site, download
+vegtabdl1 <- reactive({
+
   # input
   sitsel2 <- input$sitsel2
   zonsel2 <- input$zonsel2
-  
+  varsel1 <- input$varsel1
+
   req(zonsel2)
-  
-  out <- sitezonedst_plo3(vegdat, sitsel2, zonefct = zonsel2, thm = thm)
-  
+
+  out <- sitezonesum_fun(vegdat, site = sitsel2, zone = zonsel2, var = varsel1)
+
   return(out)
-  
+
 })
 
 # plot vegetation summary by site
@@ -121,14 +92,11 @@ vegplo2 <- reactive({
   zonsel2 <- input$zonsel2
   varsel1 <- input$varsel1
   vegsel <- input$vegsel
-  metsel <- input$metsel
-  dlmtyp <- input$dlmtyp
-
+  
   req(zonsel2)
-  req(metsel)
   req(vegsel)
   
-  out <- sitesum_plo(vegdat, sitsel2, delim = metsel, delimtyp = dlmtyp, vegsel = vegsel, var = varsel1, zonefct = zonsel2, thm = thm)
+  out <- sitesum_plo(vegdat, site = sitsel2, vegsel = vegsel, var = varsel1, zone = zonsel2, thm = thm)
   
   return(out)
   
@@ -142,13 +110,32 @@ treetab1 <- reactive({
   zonsel3 <- input$zonsel3
   varsel2 <- input$varsel2
   aggsel <- input$aggsel
-
+  
   req(zonsel3)
   
-  out <- treesum_tab(treedat, sitsel3, byspecies = aggsel, zonefct = zonsel3, var = varsel2)
+  out <- treesum_tab(treedat, site = sitsel3, byspecies = aggsel, zone = zonsel3, var = varsel2)
   
   return(out)
   
+})
+
+# tabular tree summary by site download
+treetabdl1 <- reactive({
+
+  # input
+  sitsel3 <- input$sitsel3
+  zonsel3 <- input$zonsel3
+  varsel2 <- input$varsel2
+  aggsel <- input$aggsel
+
+  req(zonsel3)
+
+  out <- treesum_fun(treedat, sitsel3, byspecies = aggsel, zone = zonsel3, var = varsel2) %>%
+    pivot_wider(names_from = 'sample', values_from = 'val', values_fill = NA) %>%
+    arrange(zone)
+
+  return(out)
+
 })
 
 # plot tree summary by site
@@ -159,10 +146,11 @@ treeplo1 <- reactive({
   zonsel3 <- input$zonsel3
   varsel2 <- input$varsel2
   aggsel <- input$aggsel
-
+  dgesel <- input$dgesel
+  
   req(zonsel3)
   
-  out <- treesum_plo(treedat, sitsel3, byspecies = aggsel, zonefct = zonsel3, var = varsel2, thm = thm)
+  out <- treesum_plo(treedat, site = sitsel3, byspecies = aggsel, zone = zonsel3, var = varsel2, dodge = dgesel, thm = thm)
   
   return(out)
   
@@ -178,101 +166,71 @@ allplo1 <- reactive({
   
   req(stesel)
   
-  out <- sppsum_plo(vegdat, sppsel, var = varsel3, sitefct = stesel, thm)
+  out <- sppsum_plo(vegdat, sp = sppsel, var = varsel3, sitefct = stesel, thm = thm)
   
   return(out)
   
 })
 ```
 
-1 ZONES BY SITE {data-navmenu="PAGE SELECTION"}
-=======================================================================
-  
-Column {data-width=200 .tabset .tabset-fade}
------------------------------------------------------------------------
-  
-### Site selection
+```{r download}
+# download veg table
+output$vegtabdl1 <- downloadHandler(
+  filename = function(){'vegetation_summary.csv'},
+  content = function(file){
 
-```{r}
-column(12,  
-  selectInput('sitsel1', 'Select site:', choices = sitopt, width = '100%')
+    # inputs
+    vegtabdl1 <- vegtabdl1()
+
+    write.csv(vegtabdl1, file, quote = T, row.names = F)
+
+  }
 )
-column(12, 
-  renderUI({
-    
-    # input
-    sitsel1 <- input$sitsel1
-    
-    tosel <- vegdat %>% 
-      filter(site %in% !!sitsel1) %>% 
-      unite('zonefct', zone, zone_name, sep = ': ') %>% 
-      mutate(zonefct = factor(zonefct, levels = sort(unique(zonefct)))) %>% 
-      pull(zonefct) %>% 
-      levels
-    
-    selectInput('zonsel1', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
-    
-  })
+
+# download tree table
+output$treetabdl1 <- downloadHandler(
+  filename = function(){'tree_summary.csv'},
+  content = function(file){
+
+    # inputs
+    treetabdl1 <- treetabdl1()
+
+    write.csv(treetabdl1, file, quote = T, row.names = F)
+
+  }
 )
 ```
 
-### About
-
-Column {.tabset .tabset-fade data-width=700}
------------------------------------------------------------------------
-
-### Site Map
-
-```{r}
-output$bsmap1 <- renderLeaflet(bsmap)
-leafletOutput('bsmap1')
-```
-
-### Zones by year
-
-```{r}
-output$sitplo1 <- renderPlotly(sitplo1())
-plotlyOutput('sitplo1')
-```
-
-### Zone length by year
-
-```{r}
-output$sitplo2 <- renderPlotly(sitplo2())
-plotlyOutput('sitplo2')
-```
-
-2 VEGETATION SURVEYS {data-navmenu="PAGE SELECTION"}
+1 VEGETATION SURVEYS {data-navmenu="PAGE SELECTION"}
 =======================================================================
   
 Column {data-width=200 .tabset .tabset-fade}
 -----------------------------------------------------------------------
   
 ### Summary options
-
+  
 ```{r}
 column(12,  
-  selectInput('sitsel2', 'Select site:', choices = sitopt, width = '100%')
+       selectInput('sitsel2', 'Select site:', choices = sitopt, width = '100%')
 )
 column(12, 
-  renderUI({
-    
-    # input
-    sitsel2 <- input$sitsel2
-    
-    tosel <- vegdat %>% 
-      filter(site %in% !!sitsel2) %>% 
-      unite('zonefct', zone, zone_name, sep = ': ') %>% 
-      mutate(zonefct = factor(zonefct, levels = sort(unique(zonefct)))) %>% 
-      pull(zonefct) %>% 
-      levels
-    
-    selectInput('zonsel2', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
-    
-  })
+       renderUI({
+         
+         # input
+         sitsel2 <- input$sitsel2
+         
+         tosel <- vegdat %>% 
+           filter(site %in% !!sitsel2) %>% 
+           mutate(zone = factor(zone, levels = sort(unique(zone)))) %>% 
+           pull(zone) %>% 
+           levels
+         
+         selectInput('zonsel2', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
+         
+       })
 )
 column(12, 
-  selectInput('varsel1', 'Select summary variable:', choices = list('Freq. Occ (%)' = 'fo', 'Basal cover (%)' = 'cover'), width = '100%')
+       selectInput('varsel1', 'Select summary variable:', choices = list('Freq. Occ (%)' = 'fo', 'Basal cover (%)' = 'cover'), width = '100%')
 )
 ```
 
@@ -280,80 +238,45 @@ column(12,
 
 Column {.tabset .tabset-fade data-width=700}
 -----------------------------------------------------------------------
-
-### All species
-
-```{r}
-output$vegplo1 <- renderPlot(vegplo1())
-plotOutput('vegplo1')
-```
-
+  
 ### Species summary
-
+  
 ```{r}
 output$vegplo2 <- renderPlotly(vegplo2())
 fillCol(flex = c(NA, 1),
-  column(12, 
-    column(3, selectInput('spptyp', 'Select species by:', choices = c('Top n', 'Names'), width = '100%')), 
-    column(3, 
-      renderUI({
-        
-        # inputs
-        spptyp <- input$spptyp
-        sitsel2 <- input$sitsel2
-        
-        if(spptyp == 'Names'){
-         
-           tosel <- vegdat %>% 
-             filter(site %in% sitsel2) %>%  
-             pull(species) %>% 
-             unique %>% 
-             sort
-           
-           sel <- tosel[1:min(length(tosel), 10)]
-  
-           out <- pickerInput('vegsel', 'Select species to show:', choices = tosel, selected = sel, multiple = T, 
-                              options = list(`actions-box` = TRUE))
-           
-        }
-        
-        if(spptyp == 'Top n')
-          out <- sliderInput('vegsel', 'Select number of species:', min = 1, max = 30, step = 1, value = 10, width = '100%')
-      
-        return(out)
-        
-      })     
-    ),
-    column(3, selectInput('dlmtyp', 'Select bins by:', choices = c('Number', 'Distance'), width = '100%')), 
-    column(3, 
-      renderUI({
-        
-        # input
-        dlmtyp <- input$dlmtyp
-        sitsel2 <- input$sitsel2
-        
-        if(dlmtyp == 'Distance'){
-          maxv <- vegdat %>% 
-            filter(site %in% !!sitsel2) %>% 
-            pull(meter) %>% 
-            max(na.rm = T) %>% 
-            round(0)
-          minv <- 3
-          ttl <- 'Select length of meter bins:'
-        }
-        
-        if(dlmtyp == 'Number'){
-          minv <- 1
-          maxv <- 30
-          ttl <- 'Select number of meter bins:'
-        }
-          
-        sliderInput('metsel', ttl, min = minv, max = maxv, step = 1, value = 10, width = '100%')
-             
-      })
-    )
-  ),  
-  plotlyOutput('vegplo2')
+        column(12, 
+               column(3, selectInput('spptyp', 'Select species by:', choices = c('Top n', 'Names'), width = '100%')), 
+               column(3, 
+                      renderUI({
+                        
+                        # inputs
+                        spptyp <- input$spptyp
+                        sitsel2 <- input$sitsel2
+                        
+                        if(spptyp == 'Names'){
+                          
+                          tosel <- vegdat %>% 
+                            filter(site %in% sitsel2) %>%  
+                            pull(species) %>% 
+                            unique %>% 
+                            sort
+                          
+                          sel <- tosel[1:min(length(tosel), 10)]
+                          
+                          out <- pickerInput('vegsel', 'Select species to show:', choices = tosel, selected = sel, multiple = T, 
+                                             options = list(`actions-box` = TRUE))
+                          
+                        }
+                        
+                        if(spptyp == 'Top n')
+                          out <- sliderInput('vegsel', 'Select number of species:', min = 1, max = 30, step = 1, value = 10, width = '100%')
+                        
+                        return(out)
+                        
+                      })     
+               )
+        ),  
+        plotlyOutput('vegplo2')
 )
 ```
 
@@ -361,10 +284,13 @@ fillCol(flex = c(NA, 1),
 
 ```{r}
 output$vegtab1 <- renderReactable(vegtab1())
-reactableOutput('vegtab1')
+fillCol(flex = c(NA, 1),
+  downloadBttn('vegtabdl1', 'Download data', style = 'simple', block = T, color = 'success'),
+  reactableOutput('vegtab1')
+)
 ```
 
-3 TREE SURVEYS {data-navmenu="PAGE SELECTION"}
+2 TREE SURVEYS {data-navmenu="PAGE SELECTION"}
 =======================================================================
   
 Column {data-width=200 .tabset .tabset-fade}
@@ -374,39 +300,42 @@ Column {data-width=200 .tabset .tabset-fade}
 
 ```{r}
 column(12,  
-  selectInput('sitsel3', 'Select site:', choices = sitopt, width = '100%')
+       selectInput('sitsel3', 'Select site:', choices = sitopt, width = '100%')
 )
 column(12, 
-  renderUI({
-    
-    # input
-    sitsel3 <- input$sitsel3
-    
-    tosel <- treedat %>% 
-      filter(site %in% !!sitsel3) %>% 
-      unite('zonefct', zone, zone_name, sep = ': ') %>% 
-      mutate(zonefct = factor(zonefct, levels = sort(unique(zonefct)))) %>% 
-      pull(zonefct)
-    
-    selectInput('zonsel3', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
-    
-  })
+       renderUI({
+         
+         # input
+         sitsel3 <- input$sitsel3
+         
+         tosel <- treedat %>% 
+           filter(site %in% !!sitsel3) %>% 
+           mutate(zone = factor(zone, levels = sort(unique(zone)))) %>% 
+           pull(zone) %>% 
+           levels
+         
+         selectInput('zonsel3', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
+         
+       })
 )
 column(12, 
-  selectInput('varsel2', 'Select summary variable:', 
-    choices = list(
-      'Absolute species density (trees/m2)' = 'trees_m2',
-      'Absolute species density (trees/ha)'= 'trees_ha', 
-      'Species average basal area (cm2/m2)' =  'cm2_m2',
-      'Species absolute cover (m2/ha)' = 'm2_ha', 
-      'Relative cover (%)' = 'relcov_per', 
-      'Tree height (m)' = 'tree_height'
-    ),
-    width = '100%'
-  )
+       selectInput('varsel2', 'Select summary variable:', 
+                   choices = list(
+                     'Absolute species density (trees/m2)' = 'trees_m2',
+                     'Absolute species density (trees/ha)'= 'trees_ha', 
+                     'Species average basal area (cm2/m2)' =  'cm2_m2',
+                     'Species absolute cover (m2/ha)' = 'm2_ha', 
+                     'Relative cover (%)' = 'relcov_per', 
+                     'Tree height (m)' = 'tree_height'
+                   ),
+                   width = '100%'
+       )
 )
 column(12, 
-  materialSwitch(inputId = 'aggsel', label = 'Show results by species?', value = T, width = '100%')
+       materialSwitch(inputId = 'aggsel', label = 'Show results by species?', value = T, width = '100%')
+)
+column(12, 
+       materialSwitch(inputId = 'dgesel', label = 'Separate columns by species?', value = T, width = '100%')
 )
 ```
 
@@ -414,12 +343,15 @@ column(12,
 
 Column {.tabset .tabset-fade data-width=700}
 -----------------------------------------------------------------------
-
+  
 ### Species by distance
-
+  
 ```{r}
 output$treeplo1 <- renderPlotly(treeplo1())
-plotlyOutput('treeplo1')
+fillCol(flex = c(NA, 1),
+  downloadBttn('treetabdl1', 'Download data', style = 'simple', block = T, color = 'success'),
+  reactableOutput('treetab1')
+)
 ```
 
 ### Tabular summary
@@ -429,38 +361,38 @@ output$treetab1 <- renderReactable(treetab1())
 reactableOutput('treetab1')
 ```
 
-4 BETWEEN SITE COMPARISONS {data-navmenu="PAGE SELECTION"}
+3 BETWEEN SITE COMPARISONS {data-navmenu="PAGE SELECTION"}
 =======================================================================
   
 Column {data-width=200 .tabset .tabset-fade}
 -----------------------------------------------------------------------
   
 ### Summary options
-
+  
 Summaries are for vegetation data only. 
 
 ```{r}
 column(12, 
-  selectInput('sppsel', 'Select species:', choices = sppopt, selected = 'Avicennia germinans', width = '100%')
+       selectInput('sppsel', 'Select species:', choices = sppopt, selected = 'Avicennia germinans', width = '100%')
 )
 column(12, 
-  renderUI({
-    
-    # input
-    sppsel <- input$sppsel
-    
-    tosel <- vegdat %>% 
-      filter(species %in% !!sppsel) %>% 
-      pull(site) %>% 
-      unique %>% 
-      sort
-    
-    selectInput('stesel', 'Select site:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
-    
-  })
+       renderUI({
+         
+         # input
+         sppsel <- input$sppsel
+         
+         tosel <- vegdat %>% 
+           filter(species %in% !!sppsel) %>% 
+           pull(site) %>% 
+           unique %>% 
+           sort
+         
+         selectInput('stesel', 'Select site:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
+         
+       })
 )
 column(12, 
-  selectInput('varsel3', 'Select summary variable:', choices = list('Freq. Occ (%)' = 'fo', 'Basal cover (%)' = 'cover'), width = '100%')
+       selectInput('varsel3', 'Select summary variable:', choices = list('Freq. Occ (%)' = 'fo', 'Basal cover (%)' = 'cover'), width = '100%')
 )
 ```
 
@@ -468,9 +400,9 @@ column(12,
 
 Column {.tabset .tabset-fade data-width=700}
 -----------------------------------------------------------------------
-
+  
 ### Species by zone
-
+  
 ```{r}
 output$allplo1 <- renderPlotly(allplo1())
 plotlyOutput('allplo1')

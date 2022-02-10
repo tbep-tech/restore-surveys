@@ -21,7 +21,8 @@ box::use(
   stringr[str_wrap],
   forcats[fct_reorder2], 
   htmltools[h5], 
-  htmlwidgets[prependContent]
+  htmlwidgets[prependContent],
+  plotly[...]
 )
 
 source(here('R/funcs.R'))
