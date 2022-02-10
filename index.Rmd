@@ -26,9 +26,6 @@ library(htmltools)
 library(htmlwidgets)
 library(shinyWidgets)
 library(plotly)
-library(mapview)
-library(leaflet)
-library(leafem)
 
 source(here('R/funcs.R'))
 
@@ -244,39 +241,39 @@ Column {.tabset .tabset-fade data-width=700}
 ```{r}
 output$vegplo2 <- renderPlotly(vegplo2())
 fillCol(flex = c(NA, 1),
-        column(12, 
-               column(3, selectInput('spptyp', 'Select species by:', choices = c('Top n', 'Names'), width = '100%')), 
-               column(3, 
-                      renderUI({
-                        
-                        # inputs
-                        spptyp <- input$spptyp
-                        sitsel2 <- input$sitsel2
-                        
-                        if(spptyp == 'Names'){
-                          
-                          tosel <- vegdat %>% 
-                            filter(site %in% sitsel2) %>%  
-                            pull(species) %>% 
-                            unique %>% 
-                            sort
-                          
-                          sel <- tosel[1:min(length(tosel), 10)]
-                          
-                          out <- pickerInput('vegsel', 'Select species to show:', choices = tosel, selected = sel, multiple = T, 
-                                             options = list(`actions-box` = TRUE))
-                          
-                        }
-                        
-                        if(spptyp == 'Top n')
-                          out <- sliderInput('vegsel', 'Select number of species:', min = 1, max = 30, step = 1, value = 10, width = '100%')
-                        
-                        return(out)
-                        
-                      })     
-               )
-        ),  
-        plotlyOutput('vegplo2')
+  column(12, 
+    column(3, selectInput('spptyp', 'Select species by:', choices = c('Top n', 'Names'), width = '100%')), 
+    column(3, 
+    renderUI({
+      
+      # inputs
+      spptyp <- input$spptyp
+      sitsel2 <- input$sitsel2
+      
+      if(spptyp == 'Names'){
+        
+        tosel <- vegdat %>% 
+          filter(site %in% sitsel2) %>%  
+          pull(species) %>% 
+          unique %>% 
+          sort
+        
+        sel <- tosel[1:min(length(tosel), 10)]
+        
+        out <- pickerInput('vegsel', 'Select species to show:', choices = tosel, selected = sel, multiple = T, 
+                           options = list(`actions-box` = TRUE))
+        
+      }
+      
+      if(spptyp == 'Top n')
+        out <- sliderInput('vegsel', 'Select number of species:', min = 1, max = 30, step = 1, value = 10, width = '100%')
+      
+      return(out)
+      
+    })     
+    )
+  ),  
+  plotlyOutput('vegplo2')
 )
 ```
 
@@ -300,42 +297,42 @@ Column {data-width=200 .tabset .tabset-fade}
 
 ```{r}
 column(12,  
-       selectInput('sitsel3', 'Select site:', choices = sitopt, width = '100%')
+  selectInput('sitsel3', 'Select site:', choices = sitopt, width = '100%')
 )
 column(12, 
-       renderUI({
-         
-         # input
-         sitsel3 <- input$sitsel3
-         
-         tosel <- treedat %>% 
-           filter(site %in% !!sitsel3) %>% 
-           mutate(zone = factor(zone, levels = sort(unique(zone)))) %>% 
-           pull(zone) %>% 
-           levels
-         
-         selectInput('zonsel3', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
-         
-       })
+  renderUI({
+   
+    # input
+    sitsel3 <- input$sitsel3
+    
+    tosel <- treedat %>% 
+      filter(site %in% !!sitsel3) %>% 
+      mutate(zone = factor(zone, levels = sort(unique(zone)))) %>% 
+      pull(zone) %>% 
+      levels
+    
+    selectInput('zonsel3', 'Select zone:', choices = tosel, selectize = T, multiple = T, selected = tosel, width = '100%')
+
+  })
 )
 column(12, 
-       selectInput('varsel2', 'Select summary variable:', 
-                   choices = list(
-                     'Absolute species density (trees/m2)' = 'trees_m2',
-                     'Absolute species density (trees/ha)'= 'trees_ha', 
-                     'Species average basal area (cm2/m2)' =  'cm2_m2',
-                     'Species absolute cover (m2/ha)' = 'm2_ha', 
-                     'Relative cover (%)' = 'relcov_per', 
-                     'Tree height (m)' = 'tree_height'
-                   ),
-                   width = '100%'
-       )
+  selectInput('varsel2', 'Select summary variable:', 
+             choices = list(
+               'Absolute species density (trees/m2)' = 'trees_m2',
+               'Absolute species density (trees/ha)'= 'trees_ha', 
+               'Species average basal area (cm2/m2)' =  'cm2_m2',
+               'Species absolute cover (m2/ha)' = 'm2_ha', 
+               'Relative cover (%)' = 'relcov_per', 
+               'Tree height (m)' = 'tree_height'
+             ),
+             width = '100%'
+  )
 )
 column(12, 
-       materialSwitch(inputId = 'aggsel', label = 'Show results by species?', value = T, width = '100%')
+  materialSwitch(inputId = 'aggsel', label = 'Show results by species?', value = T, width = '100%')
 )
 column(12, 
-       materialSwitch(inputId = 'dgesel', label = 'Separate columns by species?', value = T, width = '100%')
+  materialSwitch(inputId = 'dgesel', label = 'Separate columns by species?', value = T, width = '100%')
 )
 ```
 
