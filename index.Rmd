@@ -16,7 +16,6 @@ library(here)
 library(ggplot2)
 library(tidyr)
 library(dplyr)
-library(ggridges)
 library(reactable)
 library(shiny)
 library(lubridate)
@@ -128,7 +127,7 @@ treetabdl1 <- reactive({
   req(zonsel3)
 
   out <- treesum_fun(treedat, sitsel3, byspecies = aggsel, zone = zonsel3, var = varsel2) %>%
-    pivot_wider(names_from = 'sample', values_from = 'val', values_fill = NA) %>%
+    pivot_wider(names_from = 'trt', values_from = 'val', values_fill = NA) %>%
     arrange(zone)
 
   return(out)

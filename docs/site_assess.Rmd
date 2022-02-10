@@ -73,7 +73,7 @@ sitezonesum_tab(vegdat, site = site, var = 'cover')
 A plot of sum of percent basal cover for top species and across zones.
 
 ```{r, fig.height = 6, fig.width = 10}
-sitesum_plo(vegdat, site, vegsel = 8, var = 'cover', thm = thm)
+sitesum_plo(vegdat, site, vegsel = 8, var = 'fo', thm = thm)
 ```
 
 A plot of sum of percent basal cover for top species and select zones.

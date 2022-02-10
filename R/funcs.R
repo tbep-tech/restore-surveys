@@ -125,9 +125,9 @@ sitesum_fun <- function(vegdat, site, vegsel = NULL, var = c('fo', 'cover'), zon
 
   dat <- vegdat %>% 
     filter(site %in% !!site) %>% 
-    mutate(zonfe = factor(zone, levels = sort(unique(zone)))) %>% 
-    select(site, trt, zone, species, pcent_basal_cover) %>%
-    tidyr::complete(species, tidyr::nesting(site, trt, zone), fill = list(pcent_basal_cover = 0)) %>% 
+    mutate(zone = factor(zone, levels = sort(unique(zone)))) %>% 
+    select(site, trt, zone, species, plot, pcent_basal_cover) %>%
+    tidyr::complete(species, tidyr::nesting(site, trt, zone, plot), fill = list(pcent_basal_cover = 0)) %>% 
     filter(!species %in% torm) 
   
   # make uniform levels for open water, unknown, woody debris, none/detritus
@@ -143,24 +143,28 @@ sitesum_fun <- function(vegdat, site, vegsel = NULL, var = c('fo', 'cover'), zon
   if(!is.null(zone))
     dat <- dat %>%
       filter(zone %in% !!zone)
-  
+
   # cover
   if(var == 'cover')
     sums <- dat %>% 
       group_by(trt, species, zone) %>% 
       summarize(yval = sum(pcent_basal_cover), .groups = 'drop') %>% 
       filter(yval > 0)
-    
+
   # frequency occurrence
   if(var == 'fo')
     sums <- dat %>%
-      mutate(
-        pa = ifelse(pcent_basal_cover > 0, 1, 0)
-      ) %>%
       unique %>%
-      group_by(trt, zone, species) %>%
+      group_by(trt, zone, species, plot) %>%
       summarise(
-        yval = sum(pa) / n(),
+        pa = as.numeric(any(pcent_basal_cover > 0))
+      ) %>% 
+      group_by(trt, zone, species) %>%  
+      mutate(
+        cnt = length(unique(plot))
+      ) %>%
+      summarise(
+        yval = sum(pa) / unique(cnt),
         .groups = 'drop'
       ) %>% 
       filter(yval > 0)
@@ -336,14 +340,16 @@ treesum_fun <- function(treedat, site, byspecies = T, zone = NULL, tresel = NULL
   
   if(byspecies & var == 'rich')
     stop('Cannot use var = "rich" with byspecies = "TRUE"')
-  
+
   dat <- treedat %>% 
     filter(site %in% !!site) %>% 
+    filter(!species %in% 'none') %>% 
+    filter(!is.na(species)) %>% 
     mutate(
       zone = factor(zone, levels = sort(unique(zone))), 
       species = factor(species)
     )
-  
+
   if(!is.null(zone))
     dat <- dat %>% 
     filter(zone %in% !!zone)
@@ -401,9 +407,10 @@ treesum_fun <- function(treedat, site, byspecies = T, zone = NULL, tresel = NULL
     group_by(site, trt, zone, plot) %>%
     summarize(
       trees_m2 = 12 / pi / sum(dist_to_tree_m ^ 2, na.rm = T),
-      cnt = n(),  
+      cnt = length(unique(pcq_direction)),  
       .groups = 'drop'
     ) %>% 
+    filter(!is.infinite(trees_m2)) %>% 
     mutate(
       trees_m2 = case_when( # correction factor if four points were not sampled
         cnt == 4 ~ trees_m2, 
@@ -417,7 +424,7 @@ treesum_fun <- function(treedat, site, byspecies = T, zone = NULL, tresel = NULL
       trees_m2 = mean(trees_m2, na.rm = T), 
       .groups = 'drop'
     )
-  
+
   # get species density summaries by zone
   # uses results from above
   zonesppsum <- dat %>%  

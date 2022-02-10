@@ -70,6 +70,7 @@ treedat <- treeraw %>%
     date = mdy(date),
     site = case_when(
       site == 'Cockroach Bay' ~ 'Cockroach', 
+      site == 'Ft DeSoto' ~ 'Fort DeSoto',
       T ~ site
     )
   )
