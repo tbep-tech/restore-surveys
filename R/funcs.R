@@ -124,13 +124,12 @@ sitezonesum_tab <- function(vegdat, site, zone = NULL, qrt = NULL, var = c('fo',
 sitesum_fun <- function(vegdat, site, vegsel = NULL, var = c('fo', 'cover'), zone = NULL, torm = NULL){
   
   var <- match.arg(var)
-  
+
   dat <- vegdat %>% 
     filter(site %in% !!site) %>% 
-    unite('zonefct', zone, zone_name, sep = ': ') %>% 
-    mutate(zonfect = factor(zonefct, levels = sort(unique(zonefct)))) %>% 
-    select(site, trt, meter, zonefct, species, pcent_basal_cover) %>%
-    tidyr::complete(species, tidyr::nesting(site, trt, zonefct, meter), fill = list(pcent_basal_cover = 0)) %>% 
+    mutate(zonfe = factor(zone, levels = sort(unique(zone)))) %>% 
+    select(site, trt, zone, species, pcent_basal_cover) %>%
+    tidyr::complete(species, tidyr::nesting(site, trt, zone), fill = list(pcent_basal_cover = 0)) %>% 
     filter(!species %in% torm) 
   
   # make uniform levels for open water, unknown, woody debris, none/detritus
@@ -235,20 +234,20 @@ sitesum_plo <- function(vegdat, site, vegsel, var = c('fo', 'cover'), zone = NUL
 }
 
 #' single species summary across sites, zones
-sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, thm){
+sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, qrt = NULL, thm){
   
   var <- match.arg(var)
 
   dat <- vegdat %>% 
     mutate(site = factor(site))
-  
+
   if(var == 'fo'){
   
     dgval <- 0
     ylab <- 'Freq. Occ.'
     
     toplo <- dat %>% 
-      group_by(site, trt, meter) %>% 
+      group_by(site, trt, zone) %>% 
       summarise(
         pres = sp %in% species,
         .groups = 'drop'
@@ -268,7 +267,7 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, thm){
     
     toplo <- dat %>%
       select(site, trt, zone, species, pcent_basal_cover) %>% 
-      tidyr::complete(species, tidyr::nesting(site, zone, meter), fill = list(pcent_basal_cover = 0)) %>%
+      tidyr::complete(species, tidyr::nesting(site, trt, zone), fill = list(pcent_basal_cover = 0)) %>%
       filter(species %in% !!sp) %>% 
       group_by(site, trt) %>% 
       summarise(
@@ -318,7 +317,6 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, thm){
 #' summarise tree plot data into species by zone or just by zone
 treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
 
-  
   dat <- treedat %>%
     mutate(
       species = factor(species)
@@ -326,7 +324,8 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
   
   if(!is.null(site))
     dat <- dat %>% 
-      filter(site %in% !!site)
+      filter(site %in% !!site) %>% 
+      mutate(species = forcats::fct_drop(species))
   
   if(!is.null(zone))
     dat <- dat %>% 
@@ -435,25 +434,23 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
 }
 
 #' tree site summary table
-treesum_tab <- function(treedat, site, byspecies = T, zonefct = NULL,
+treesum_tab <- function(treedat, site, byspecies = T, zone = NULL,
                         var = c("cm2_m2", "m2_ha", "relcov_per", "trees_ha", "trees_m2", "rich", "tree_height")){
   
-  totab <- treesum_fun(treedat, site = site, byspecies = byspecies, zonefct = zonefct, var = var) %>% 
-    mutate(
-      trt = paste('Year', trt)
-    ) %>% 
+  totab <- treesum_fun(treedat, site = site, byspecies = byspecies, zone = zone) %>% 
+    filter(var %in% !!var) %>% 
     pivot_wider(names_from = 'trt', values_from = 'val', values_fill = NA) %>%
-    arrange(zonefct) 
+    arrange(zone) 
   
   if(byspecies)
     tab <- reactable(
       totab,
-      groupBy = c('zonefct'),
+      groupBy = c('zone'),
       columns = list(
         var = colDef(show = F),
         varlab = colDef(show = F),
         site = colDef(show = F),
-        zonefct = colDef(name = 'Zone'),
+        zone = colDef(name = 'Zone'),
         species = colDef(name = 'Species')
       ), 
       defaultColDef = colDef(format = colFormat(digits = 1), align = 'left'), 
@@ -468,7 +465,7 @@ treesum_tab <- function(treedat, site, byspecies = T, zonefct = NULL,
         var = colDef(show = F),
         varlab = colDef(show = F),
         site = colDef(show = F),
-        zonefct = colDef(name = 'Zone', minWidth = 200)
+        zone = colDef(name = 'Zone', minWidth = 200)
       ), 
       defaultColDef = colDef(format = colFormat(digits = 1)), 
       resizable = T, 
@@ -484,16 +481,14 @@ treesum_tab <- function(treedat, site, byspecies = T, zonefct = NULL,
 }
 
 #' tree site summary plot
-treesum_plo <- function(treedat, site, byspecies, zonefct = NULL, var, thm){
+treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, thm){
   
-  toplo <- treesum_fun(treedat, site, byspecies, zonefct, var) %>% 
-    mutate(
-      trt = paste('Year', trt)
-    )
+  toplo <- treesum_fun(treedat, site, byspecies, zone) %>% 
+    filter(var %in% !!var)
   
   cols <- RColorBrewer::brewer.pal(8, 'Accent') %>% 
     colorRampPalette(.)
-  
+
   levs <- levels(toplo$species)
   colin <- cols(length(levs))
   names(colin) <- levs
@@ -501,7 +496,7 @@ treesum_plo <- function(treedat, site, byspecies, zonefct = NULL, var, thm){
   leglab <- unique(toplo$varlab)
   
   if(byspecies)
-    p <- ggplot(toplo, aes(x = zonefct, y = val, fill = species)) + 
+    p <- ggplot(toplo, aes(x = zone, y = val, fill = species)) + 
       geom_bar(stat = 'identity', color = 'black') + 
       scale_x_discrete(drop = F, labels = function(x) str_wrap(x, width = 10)) +
       scale_fill_manual(values = colin, limits = force) +
@@ -514,7 +509,7 @@ treesum_plo <- function(treedat, site, byspecies, zonefct = NULL, var, thm){
       )
   
   if(!byspecies)
-    p <- ggplot(toplo, aes(x = zonefct, y = val)) + 
+    p <- ggplot(toplo, aes(x = zone, y = val)) + 
       geom_bar(stat = 'identity', color = 'black') + 
       scale_x_discrete(drop = F, labels = function(x) str_wrap(x, width = 10)) +
       facet_wrap(~trt, ncol = 1, drop = F) + 

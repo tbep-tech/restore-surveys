@@ -69,16 +69,16 @@ Same thing but as percent basal cover.
 sitezonesum_tab(vegdat, site = site, var = 'cover')
 ```
 
-A plot of sum of percent basal cover by arbitrary meter markings, top species, and across zones.
+A plot of sum of percent basal cover for top species and across zones.
 
 ```{r, fig.height = 6, fig.width = 10}
-sitesum_plo(vegdat, site, delim = 10, vegsel = 8, var = 'cover', thm = thm, delimtyp = 'Number')
+sitesum_plo(vegdat, site, vegsel = 8, var = 'cover', thm = thm)
 ```
 
-A plot of sum of percent basal cover by arbitrary meter markings, top species, and for select zones.
+A plot of sum of percent basal cover for top species and select zones.
 
 ```{r, fig.height = 6, fig.width = 10}
-sitesum_plo(vegdat, site, delim = 10, vegsel = 8, var = 'cover', zonefct = c('A: Mangrove Fringe', 'G: Coastal Upland'), thm = thm,  delimtyp = 'Number')
+sitesum_plo(vegdat, site, vegsel = 8, var = 'cover', zone = c('Mangrove', 'Freshwater Marsh'), thm = thm)
 ```
 
 Tabular summary of tree data by site, species.

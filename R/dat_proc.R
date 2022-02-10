@@ -67,7 +67,11 @@ treedat <- treeraw %>%
     angle = `Angle`
   ) %>% 
   mutate(
-    date = mdy(date)
+    date = mdy(date),
+    site = case_when(
+      site == 'Cockroach Bay' ~ 'Cockroach', 
+      T ~ site
+    )
   )
 
 save(treedat, file = here('data/treedat.RData'))
