@@ -144,6 +144,7 @@ treeplo1 <- reactive({
   varsel2 <- input$varsel2
   aggsel <- input$aggsel
   dgesel <- input$dgesel
+  tresel <- input$tresel
   
   req(zonsel3)
   
@@ -345,7 +346,41 @@ Column {.tabset .tabset-fade data-width=700}
   
 ```{r}
 output$treeplo1 <- renderPlotly(treeplo1())
-plotlyOutput('treeplo1')
+fillCol(flex = c(NA, 1),
+  column(12, 
+    column(3, selectInput('spptyp2', 'Select species by:', choices = c('Top n', 'Names'), width = '100%')), 
+    column(3, 
+      renderUI({
+        
+        # inputs
+        spptyp2 <- input$spptyp2
+        sitsel3 <- input$sitsel3
+        
+        if(spptyp2 == 'Names'){
+         
+           tosel <- treedat %>% 
+             filter(site %in% sitsel3) %>%  
+             pull(species) %>% 
+             unique %>% 
+             sort
+           
+           sel <- tosel[1:min(length(tosel), 10)]
+  
+           out <- pickerInput('tresel', 'Select species to show:', choices = tosel, selected = sel, multiple = T, 
+                              options = list(`actions-box` = TRUE))
+           
+        }
+        
+        if(spptyp2 == 'Top n')
+          out <- sliderInput('tresel', 'Select number of species:', min = 1, max = 20, step = 1, value = 10, width = '100%')
+      
+        return(out)
+        
+      })     
+    )
+  ),
+  plotlyOutput('treeplo1')
+)
 ```
 
 ### Tabular summary

@@ -329,34 +329,72 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, qrt =
 }
 
 #' summarise tree plot data into species by zone or just by zone
-treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
-
-  dat <- treedat %>%
+treesum_fun <- function(treedat, site, byspecies = T, zone = NULL, tresel = NULL,
+                        var = c("cm2_m2", "m2_ha", "relcov_per", "trees_ha", "trees_m2", "rich", "tree_height")){
+  
+  var <- match.arg(var)
+  
+  if(byspecies & var == 'rich')
+    stop('Cannot use var = "rich" with byspecies = "TRUE"')
+  
+  dat <- treedat %>% 
+    filter(site %in% !!site) %>% 
     mutate(
+      zone = factor(zone, levels = sort(unique(zone))), 
       species = factor(species)
     )
   
-  if(!is.null(site))
-    dat <- dat %>% 
-      filter(site %in% !!site) %>% 
-      mutate(species = forcats::fct_drop(species))
-  
   if(!is.null(zone))
     dat <- dat %>% 
-      filter(zone %in% !!zone)
+    filter(zone %in% !!zone)
   
-  # tree heights
-  hgts <- dat %>% 
-    group_by(site, trt, zone, species) %>%
-    summarize(
-      val = mean(tree_height, na.rm = T),
-      .groups = 'drop'
-    ) %>% 
-    mutate(
-      var = 'tree_height',
-      varlab = 'Tree height (m)'
-    )
-
+  # handle tree height different since it's already present
+  if(var == 'tree_height'){
+    
+    dat <- dat %>% 
+      group_by(site, trt, zone, species) %>%
+      summarize(
+        val = mean(tree_height, na.rm = T),
+        .groups = 'drop'
+      )    
+    
+    # get selection to filter summaries by actual species list or count
+    if(!is.null(tresel)){
+      
+      sppflt <- tresel
+      
+      if(is.numeric(tresel))
+        sppflt <- dat %>% 
+          group_by(species) %>% 
+          filter(var %in% !!var) %>% 
+          summarise(val = sum(val)) %>% 
+          arrange(-val) %>% 
+          pull(species) %>% 
+          .[1:tresel]
+      
+      dat <- dat %>% 
+        filter(species %in% sppflt)
+      
+    }
+    
+    if(!byspecies)
+      dat <- dat %>% 
+        group_by(site, trt, zone) %>%
+        summarize(
+          val = mean(val, na.rm = T),
+          .groups = 'drop'
+        ) 
+    
+    out <- dat %>% 
+      mutate(
+        var = 'tree_height',
+        varlab = 'Tree height (m)'
+      )
+    
+    return(out)
+    
+  }
+  
   # summarize by plot in each zone first, then density of trees in the zone
   # this is used to get species densities in each zone
   zonedens <- dat %>% 
@@ -367,7 +405,7 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
       .groups = 'drop'
     ) %>% 
     mutate(
-      trees_m2 = case_when( # correction factor if four points were not trtd
+      trees_m2 = case_when( # correction factor if four points were not sampled
         cnt == 4 ~ trees_m2, 
         cnt == 3 ~ trees_m2 * 0.58159, 
         cnt == 2 ~ trees_m2 * 0.3393,
@@ -379,7 +417,7 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
       trees_m2 = mean(trees_m2, na.rm = T), 
       .groups = 'drop'
     )
-
+  
   # get species density summaries by zone
   # uses results from above
   zonesppsum <- dat %>%  
@@ -412,14 +450,31 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
       )
     )
   
-  out <- zonesppsum %>% 
-    bind_rows(hgts) %>% 
-    filter(!species %in% 'none')
+  out <- zonesppsum
+  
+  # get selection to filter summaries by actual species list or count
+  if(!is.null(tresel)){
+    
+    sppflt <- tresel
+    
+    if(is.numeric(tresel))
+      sppflt <- out %>% 
+        group_by(species) %>% 
+        filter(var %in% !!var) %>% 
+        summarise(val = sum(val)) %>% 
+        arrange(-val) %>% 
+        pull(species) %>% 
+        .[1:tresel]
+    
+    out <- out %>% 
+      filter(species %in% sppflt)
+    
+  }
   
   # summarise the above across zone
   if(!byspecies){
-
-    richdat <- out %>% 
+    
+    richdat <- out %>%  
       group_by(site, trt, zone) %>%
       summarise(
         val = length(unique(species)), 
@@ -436,13 +491,14 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
         val = sum(val, na.rm = T),
         .groups = 'drop'
       ) %>% 
-      bind_rows(richdat)
+      bind_rows(richdat) %>% 
+      arrange(site, trt, zone)
     
   }
   
   out <- out %>% 
-    arrange(site, trt, zone, varlab)    
-
+    filter(var %in% !!var)
+  
   return(out)
   
 }
@@ -451,8 +507,7 @@ treesum_fun <- function(treedat, site = NULL, byspecies = T, zone = NULL){
 treesum_tab <- function(treedat, site, byspecies = T, zone = NULL,
                         var = c("cm2_m2", "m2_ha", "relcov_per", "trees_ha", "trees_m2", "rich", "tree_height")){
   
-  totab <- treesum_fun(treedat, site = site, byspecies = byspecies, zone = zone) %>% 
-    filter(var %in% !!var) %>% 
+  totab <- treesum_fun(treedat, site = site, byspecies = byspecies, zone = zone, var = var) %>% 
     pivot_wider(names_from = 'trt', values_from = 'val', values_fill = NA) %>%
     arrange(zone) 
   
@@ -485,7 +540,7 @@ treesum_tab <- function(treedat, site, byspecies = T, zone = NULL,
       resizable = T, 
       defaultExpanded = T
     )
-
+  
   
   ttl <- paste(site, unique(totab$varlab), sep = ', ')
   out <-  prependContent(tab, h5(class = "title", ttl))
@@ -495,14 +550,13 @@ treesum_tab <- function(treedat, site, byspecies = T, zone = NULL,
 }
 
 #' tree site summary plot
-treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, dodge = T, thm){
+treesum_plo <- function(treedat, site, byspecies, zone = NULL, tresel = NULL, var, dodge = T, thm){
   
-  toplo <- treesum_fun(treedat, site, byspecies, zone) %>% 
-    filter(var %in% !!var)
+  toplo <- treesum_fun(treedat, site, byspecies, zone, tresel, var)
   
   cols <- RColorBrewer::brewer.pal(8, 'Accent') %>% 
     colorRampPalette(.)
-
+  
   levs <- levels(toplo$species)
   colin <- cols(length(levs))
   names(colin) <- levs
@@ -510,13 +564,13 @@ treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, dodge = T, t
   leglab <- unique(toplo$varlab)
   
   if(byspecies){
-  
+    
     pos <- 'stack'
     if(dodge)
       pos <- position_dodge2(width = 0.9, preserve = "single")
-      
+    
     p <- ggplot(toplo, aes(x = zone, y = val, fill = species)) + 
-      geom_col(stat = 'identity', color = 'black', position = pos) + 
+      geom_col(stat = 'identity', color = 'black', position = pos) +
       scale_x_discrete(drop = F, labels = function(x) str_wrap(x, width = 10)) +
       scale_fill_manual(values = colin, limits = force) +
       facet_wrap(~trt, ncol = 1, drop = F) + 
@@ -526,20 +580,20 @@ treesum_plo <- function(treedat, site, byspecies, zone = NULL, var, dodge = T, t
         x = NULL, 
         fill = 'Species'
       )
-  
+    
   }
   
   if(!byspecies)
     p <- ggplot(toplo, aes(x = zone, y = val)) + 
-      geom_bar(stat = 'identity', color = 'black') + 
-      scale_x_discrete(drop = F, labels = function(x) str_wrap(x, width = 10)) +
-      facet_wrap(~trt, ncol = 1, drop = F) + 
-      thm + 
-      labs(
-        y = leglab,
-        x = NULL, 
-        fill = 'Species'
-      )
+    geom_bar(stat = 'identity', color = 'black') + 
+    scale_x_discrete(drop = F, labels = function(x) str_wrap(x, width = 10)) +
+    facet_wrap(~trt, ncol = 1, drop = F) + 
+    thm + 
+    labs(
+      y = leglab,
+      x = NULL, 
+      fill = 'Species'
+    )
   
   p <- ggplotly(p) %>% 
     plotly::config(
