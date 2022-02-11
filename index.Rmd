@@ -229,6 +229,9 @@ column(12,
 column(12, 
        selectInput('varsel1', 'Select summary variable:', choices = list('Freq. Occ (%)' = 'fo', 'Basal cover (%)' = 'cover'), width = '100%')
 )
+column(12, 
+  p('Frequency occurrence is calculated as the sum of observations for a species in a zone divided by the total plots within each zone.')
+)
 ```
 
 ### About
@@ -424,6 +427,9 @@ column(12,
 )
 column(12, 
        selectInput('varsel3', 'Select summary variable:', choices = list('Freq. Occ (%)' = 'fo', 'Basal cover (%)' = 'cover'), width = '100%')
+)
+column(12, 
+  p('Frequency occurrence is calculated as the sum of observations for a species divided by the total plots at a site.')
 )
 ```
 

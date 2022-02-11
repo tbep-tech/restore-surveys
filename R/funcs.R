@@ -255,19 +255,22 @@ sppsum_plo <- function(vegdat, sp, var = c('fo', 'cover'), sitefct = NULL, qrt =
   
     dgval <- 0
     ylab <- 'Freq. Occ.'
-    
+
     toplo <- dat %>% 
-      group_by(site, trt, zone) %>% 
+      group_by(site, trt, zone, plot, species) %>%
       summarise(
-        pres = sp %in% species,
+        pa = any(pcent_basal_cover > 0), 
         .groups = 'drop'
       ) %>% 
       group_by(site, trt) %>% 
+      mutate(
+        cnt = length(unique(plot))
+      ) %>% 
       summarise(
-        yval = sum(pres) / n(), 
+        yval = sum(species %in% sp) / unique(cnt),
         .groups = 'drop'
-      )
-   
+      ) 
+    
   }
     
   if(var == 'cover'){
