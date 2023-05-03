@@ -1,0 +1,982 @@
+"site","trt","scnd","zone","quarter","date","plot","species","pcent_basal_cover","pcent_canopy_cover"
+"Cockroach","Control","Cockroach","Mangrove","2020-1",2020-03-01,4,"Bare",30,NA
+"Cockroach","Control","Cockroach","Mangrove","2020-1",2020-03-01,4,"Rhizophora mangle",70,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Dapis sp.",5,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Kosteletzkya virginica",2,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Lemna minor",1,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Open Water",4,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Panicum repens",80,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Scirpus americana",3,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2020-1",2020-02-04,7,"Utricularia inflata",5,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2021-3",2021-09-16,11,"Litter",30,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2021-3",2021-09-16,11,"Open Water",6,NA
+"Cockroach","Control","Cockroach","Freshwater Marsh","2021-3",2021-09-16,11,"Spartina bakeri",64,96
+"Cockroach","Control","Cockroach","Mangrove","2021-3",2021-10-05,15,"Avicennia germinans",1,1
+"Cockroach","Control","Cockroach","Mangrove","2021-3",2021-10-05,15,"Open Water",96,NA
+"Cockroach","Control","Cockroach","Mangrove","2021-3",2021-10-05,15,"Rhizophora mangle",3,5
+"Cockroach","Control","Cockroach","Open Land","2020-1",2020-02-04,2,"Abutilon theophrasti",3,NA
+"Cockroach","Control","Cockroach","Open Land","2020-1",2020-02-04,2,"Eupatorium cappillifolium",1,NA
+"Cockroach","Control","Cockroach","Open Land","2020-1",2020-02-04,2,"Litter",69,NA
+"Cockroach","Control","Cockroach","Open Land","2020-1",2020-02-04,2,"Praxelis clematidea",2,NA
+"Cockroach","Control","Cockroach","Open Land","2020-1",2020-02-04,2,"Rubus cuneifolius",25,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Bare",7,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Batis maritima",3,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Canvalia rosea",3,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Dalbergia ecastrophyllum",14,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Distichlis spicata",15,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Eustachys petraea",10,NA
+"Cockroach","Control","Cockroach","Open Land","2021-3",2021-09-16,19,"Litter",48,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2020-1",2020-03-03,9,"Bare",31,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2020-1",2020-03-03,9,"Laguncularia racemosa",48,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2020-1",2020-03-03,9,"Litter",16,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2020-1",2020-03-03,9,"Sesuvium portulacastrum",5,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2021-3",2021-09-16,23,"Laguncularia racemosa",30,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2021-3",2021-09-16,23,"Litter",10,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2021-3",2021-09-16,23,"Lycium carolinianum",3,NA
+"Cockroach","Control","Cockroach","Salt Marsh","2021-3",2021-09-16,23,"Open Water",57,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2020-1",2020-03-03,6,"Avicennia germinans",5,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2020-1",2020-03-03,6,"Bare",22,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2020-1",2020-03-03,6,"Laguncularia racemosa",5,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2020-1",2020-03-03,6,"Litter",28,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2020-1",2020-03-03,6,"Sesuvium portulacastrum",40,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2021-3",2021-09-10,27,"Bare",84,NA
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2021-3",2021-09-10,27,"Borrichia frutescens",14,20
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2021-3",2021-09-10,27,"Laguncularia racemosa",1,3
+"Cockroach","Control","Cockroach","Wetland Forest Mixed","2021-3",2021-09-10,27,"Lycium carolinianum",1,1
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Baccharis angustifolia",3,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Bacopa caroliniana",1,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Hydrocotyle umbellata",1,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Litter",46,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Ludwigia peruviana",2,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Myriophyllum aquaticum",1,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Polygonum punctatum",1,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2020-1",2020-02-27,8,"Schoenoplectus americanus",45,NA
+"Cockroach","Restoration","Cockroach","Salt Marsh","2020-1",2020-02-25,10,"Bare",4,NA
+"Cockroach","Restoration","Cockroach","Salt Marsh","2020-1",2020-02-25,10,"Distichlis spicata",95,NA
+"Cockroach","Restoration","Cockroach","Salt Marsh","2020-1",2020-02-25,10,"Iva imbricata",1,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2021-3",2021-10-05,13,"Acrostichum danaeifolium",25,43
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2021-3",2021-10-05,13,"Bacopa monnieri",2,2
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2021-3",2021-10-05,13,"Bare",30,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2021-3",2021-10-05,13,"Laguncularia racemosa",12,15
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2021-3",2021-10-05,13,"Litter",5,NA
+"Cockroach","Restoration","Cockroach","Freshwater Marsh","2021-3",2021-10-05,13,"Typha domingensis",20,15
+"Cockroach","Restoration","Cockroach","Salt Marsh","2021-3",2021-10-16,25,"Bare",28,NA
+"Cockroach","Restoration","Cockroach","Salt Marsh","2021-3",2021-10-16,25,"Batis martitima",46,NA
+"Cockroach","Restoration","Cockroach","Salt Marsh","2021-3",2021-10-16,25,"Philoxerus vermicularis",14,NA
+"Cockroach","Restoration","Cockroach","Salt Marsh","2021-3",2021-10-16,25,"Sesuvium portulacastrum",12,NA
+"Cockroach","Restoration","Cockroach","Mangrove","2020-1",2020-03-01,3,"Avicennia germinans",6,NA
+"Cockroach","Restoration","Cockroach","Mangrove","2020-1",2020-03-01,3,"Bare",93,NA
+"Cockroach","Restoration","Cockroach","Mangrove","2020-1",2020-03-01,3,"Rhizophora mangle",1,NA
+"Cockroach","Restoration","Cockroach","Mangrove","2021-3",2021-09-16,17,"Avicennia germinans",20,NA
+"Cockroach","Restoration","Cockroach","Mangrove","2021-3",2021-09-16,17,"Litter",NA,NA
+"Cockroach","Restoration","Cockroach","Mangrove","2021-3",2021-09-16,17,"Open Water",NA,NA
+"Cockroach","Restoration","Cockroach","Open Land","2020-1",2020-03-03,1,"Bare",11,NA
+"Cockroach","Restoration","Cockroach","Open Land","2020-1",2020-03-03,1,"Distichlis spicata",17,NA
+"Cockroach","Restoration","Cockroach","Open Land","2020-1",2020-03-03,1,"Litter",70,NA
+"Cockroach","Restoration","Cockroach","Open Land","2020-1",2020-03-03,1,"Schinus terebinthifolius",2,NA
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Ambrosia artimiisfolia",1,1
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Andropogon virginicus",2,1
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Bare",80,NA
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Bidens alba",15,8
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Erigeron quecifolius",1,1
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Euphorbia heterophylla",1,1
+"Cockroach","Restoration","Cockroach","Open Land","2021-3",2021-09-16,21,"Smilax sp.",1,1
+"Cockroach","Restoration","Cockroach","Wetland Forest Mixed","2020-1",2020-03-04,5,"Litter",92,NA
+"Cockroach","Restoration","Cockroach","Wetland Forest Mixed","2020-1",2020-03-04,5,"Smilax sp.",8,NA
+"Cockroach","Restoration","Cockroach","Wetland Forest Mixed","2021-3",2021-09-16,28,"Litter",99,NA
+"Cockroach","Restoration","Cockroach","Wetland Forest Mixed","2021-3",2021-09-16,28,"Sabal palmetto",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,0,"fern",15,35
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,0,"grass 3 - fuzzy",3,3
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,0,"grass 4 - small",5,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,0,"herb 9",3,3
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"Andropogon sp.",5,40
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"clumpy grass -6?",15,20
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"Drosera sp.",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"Eupatorium capillifolium",4,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"grass 10 rpt?",5,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"Juncus effusus",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"Litter",40,40
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,2,"shrub 4",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,4,"grass 8",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,4,"grass 9",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,4,"Juncus effusus",25,40
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,4,"Litter",40,40
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,4,"Quercus sp.",1,1
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"Andropogon sp.",5,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"clumpy grass -6?",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"Eupatorium capillifolium",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"Lily 1",4,6
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"Litter",30,30
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"small grass",8,12
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"unknown 1",5,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"unknown 2",3,3
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,5,"white flower",3,4
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"Andropogon sp.",35,60
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"Equisetum sp.",3,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"Eupatorium capillifolium",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"grass 5",8,15
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"grass 6",5,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"herb 10",3,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"Litter",35,60
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"rush 1",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-1",2021-03-12,6,"white flower",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb (present)",1,1
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Imperata cylindrica",2,3
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",20,20
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"grass",30,60
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",60,60
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Andropogon sp.",5,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Eleocharis sp.",5,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"grass 1 6329",3,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"grass 2 - clumps",10,20
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 2729",10,20
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 9481",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Juncus 1 5954",2,4
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Juncus 2 7585",2,3
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",15,15
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Quercus nigra",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Sphagnum moss",5,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Eupatorium capillifolium",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 1",1,1
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Imperata cylindrica",20,45
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",73,73
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Eupatorium capillifolium",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"grass 1 6737",4,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Grass 2",4,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"grass 3",2,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 1 6835",4,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 2",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 3 9268",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Juncus effusus",30,60
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",38,38
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Cyperus sp.",10,20
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Equisetum sp.",20,35
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"ground cover 0769",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Rynchospora 9641",15,30
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"tuft grass",5,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Canna sp.",3,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Eleocharis sp.",5,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Eupatorium capillifolium",1,3
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"fuzzy grass 7466",3,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Panicum sp.",5,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Paspalum? Panicum repens? 9471",45,65
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"sm grass 6771",8,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"unknown flower 7894",1,1
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Xyris sp.",3,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Lemna sp.",90,90
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,NA,"Litter",10,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Crinum sp.",5,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Cyperus sp.",5,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Eleocharis sp.",1,2
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"herb 7333",5,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Juncus effusus",20,50
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Litter",25,25
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Maidencane/Panicum 6500",10,20
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Mint-ish 4753",8,15
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Osmunda cinnamomea",3,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Quercus laurifolia",1,1
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Quercus nigra",4,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"red flower 1888",3,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"Smilax sp.",5,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,118,"white flower with leaf cluster 9583",5,5
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,119,"Cyperus sp.",5,8
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,119,"grass",10,15
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,119,"herb 2 (again) 0825",10,15
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,119,"Quercus sp.",2,4
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,119,"sm grass, herb 7483",5,10
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,0,"Litter",65,80
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,0,"Quercus minima",5,15
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,0,"Serenoa repens",30,50
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,1,"Fraxinus sp. seedling",4,4
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,1,"Litter",95,100
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,1,"Serenoa repens",0,10
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,1,"Smilax sp.",0,3
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,1,"Vitis rotundifolia",1,1
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"Fraxinus sp. seedling",2,2
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"Litter",90,90
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"Quercus sp.",3,5
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"Smilax sp.",1,3
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"Smilax sp.",1,2
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"unknown 3",1,2
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"unknown 4",1,1
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,2,"Vaccinium myrsinites",0,4
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,3,"Litter",95,100
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,3,"Smilax sp.",5,10
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,4,"Litter",86,95
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,4,"Quercus sp.",3,5
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,4,"Serenoa repens",0,30
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,4,"Smilax sp.",1,4
+"Copeland","Control","Cury","Uplands","2021-1",2021-03-12,4,"Vitis rotundifolia",10,20
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,8,"Litter",87,87
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,8,"Pteridium aquilinum",2,5
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,8,"Quercus sp.",1,2
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,8,"Smilax sp.",4,9
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,8,"Tillandsia sp.",2,3
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,8,"Vitis rotundifolia",4,10
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,9,"Litter",56,56
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,9,"Nephrolepis exaltata",35,75
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,9,"Quercus sp.",4,8
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,9,"Vitis rotundifolia",5,10
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,10,"herb 1",1,2
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,10,"Litter",88,88
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,10,"Quercus sp.",1,1
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,10,"Serenoa repens",0,30
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,10,"Vitis rotundifolia",5,15
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,11,"Litter",78,78
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,11,"Parthenocissus quinquefolia",2,3
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,11,"Prunus caroliniana",15,30
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,11,"Quercus sp.",1,3
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,11,"Smilax sp.",4,8
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,11,"Vitis rotundifolia",0,2
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,12,"Discorea bulbifera",15,30
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,12,"grass",5,10
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,12,"Litter",42,42
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,12,"Parthenocissus quinquefolia",5,10
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,12,"Smilax sp.",1,2
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,12,"Tillandsia sp.",2,2
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,316,"Litter",45,45
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,316,"Nephrolepis exaltata",50,80
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,316,"Syngonium sp.",15,20
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,317,"Litter",73,73
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,317,"Moss (on bark)",0,5
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,317,"Quercus nigra",15,40
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,317,"Quercus sp.",5,5
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,317,"Smilax sp.",2,4
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,317,"Vitis rotundifolia",5,10
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,318,"Litter",66,66
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,318,"Quercus laurifolia",1,1
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,318,"Quercus nigra",10,25
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,318,"Smilax sp.",3,5
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,318,"Vitis rotundifolia",10,20
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,319,"Litter",93,93
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,319,"Quercus laurifolia",4,7
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,319,"Quercus nigra",1,5
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,319,"Sphagnum moss",2,2
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,320,"Litter",56,56
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,320,"Nephrolepis exaltata",40,80
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,320,"Prunus caroliniana seedling",1,2
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,320,"Quercus laurifolia",1,2
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,320,"Quercus nigra",0,5
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,320,"Smilax sp.",2,5
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,0,"grass 3 - fuzzy",40,80
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,0,"herb 8",2,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,0,"Litter",53,60
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,0,"Parthenocissus quinquefolia",4,5
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,0,"Urena lobata",0,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,0,"vine 3",1,1
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,1,"grass 3 - fuzzy",20,50
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,1,"Litter",80,80
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,2,"grass 3 - fuzzy",30,70
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,2,"herb 9",2,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,2,"Litter",68,90
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,3,"grass 3 - fuzzy",30,50
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,3,"herb 7",5,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,3,"Litter",40,40
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,4,"grass 3 - fuzzy",35,70
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,4,"Litter",60,60
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-1",2021-03-12,4,"shrub 3",0,8
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,8,"Imperata cylindrica",2,3
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,8,"Litter",2,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 2",1,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"Imperata cylindrica",65,90
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",34,34
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"herb 1",1,1
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"Imperata cylindrica",10,15
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",89,89
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,12,"Imperata cylindrica",2,3
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,12,"Litter",98,98
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"Imperata cylindrica",2,3
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,NA,"Litter",98,98
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,18,"grass",1,1
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,18,"herb",3,4
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,18,"herb 2 8257",3,5
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,18,"Imperata cylindrica",25,60
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,18,"Litter",59,59
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,18,"Mimosa-ish 6390",1,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,19,"Alternanthera philoxeroides",10,25
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,19,"herbaceous 1121",3,3
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,19,"Imperata cylindrica",8,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,19,"Lemna sp.",10,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,19,"Litter",20,20
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,19,"unknown grass",5,5
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"ground cover 1231",5,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Litter",32,32
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Mimosa-ish 7676",2,3
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Tripsacum dactyloides",30,40
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"yellow flower 0968",1,2
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Cyperus sp.",5,15
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"grass 3722",2,4
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"grass Setaria? 7440",5,5
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"herb cover 2 7889",10,12
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"herb ground cover 4071",15,15
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"lavender-ish 2309",1,1
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Litter",10,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"yellow flower 2967",2,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Green filamentous algae",10,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Lemna sp.",10,10
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,NA,"Spartina bakeri",20,50
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,0,"Grass 1",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,0,"Litter",40,40
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,0,"Small shrub 1",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"clover 1",12,12
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"Grass 1",8,8
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"Grass 2 - thin",2,2
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"herb 1",5,5
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"Litter",50,50
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"Quercus sp.",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"Small shrub 1",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,1,"small shrub 2",5,5
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,2,"Fern",40,80
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,2,"Litter",60,90
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,2,"Prunus caroliniana",0,2
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,2,"Serenoa repens",0,5
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,3,"fern 1",20,50
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,3,"herb 2 - spade",3,3
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,3,"herb 3",3,3
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,3,"Litter",67,80
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,3,"Serenoa repens",6,15
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,3,"vine 1",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"Grass 2 - thin",4,5
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"herb 4",1,3
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"herb 5",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"herb 6 - 3 leaves",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"Litter",89,90
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"Quercus sp.",3,3
+"Copeland","Restoration","Copeland","Uplands","2021-1",2021-03-12,4,"vine 2",1,2
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,7,"Discorea bulbifera",3,8
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,7,"fern 1",10,25
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,7,"Imperata cylindrica",30,65
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,7,"Litter",57,57
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,8,"fern 1",55,75
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,8,"Litter",27,27
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,8,"Prunus caroliniana",3,7
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,9,"faboid vine picture 1833",2,8
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,9,"fern 1",30,60
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,9,"Litter",68,68
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,9,"Parthenocissus quinquefolia",0,3
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,9,"Smilax sp.",0,8
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,9,"Tillandsia sp.",0,2
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,10,"Discorea bulbifera",1,5
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,10,"fern",40,65
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,10,"Litter",49,49
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,10,"Prunus caroliniana",10,30
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,11,"Litter",99,99
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,11,"Parthenocissus quinquefolia",1,2
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,16,"grass 6325",0,5
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,16,"herb 1 4457",10,30
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,16,"herb 2 2056",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,16,"Litter",85,85
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,16,"Quercus sp.",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,16,"Smilax sp.",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,215,"Cinnamomum camphora",15,25
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,215,"ground cover 7013",5,10
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,215,"herb vine 7486",5,10
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,215,"Litter",69,69
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,215,"Parthenocissus quinquefolia",5,20
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,215,"Smilax sp.",1,5
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Discorea bulbifera",2,3
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Litter",77,77
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Prunus caroliniana",4,15
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Quercus sp.",2,3
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Serenoa repens",10,60
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Smilax sp.",5,20
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,217,"Vitis rotundifolia",0,20
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"clover 1",2,2
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"Discorea bulbifera",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"grass",1,2
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"herb ground cover 8655",5,10
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"herb vine 0342",3,5
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"Litter",62,62
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"Quercus sp.",1,1
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,218,"Urena lobata",20,40
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,219,"Discorea bulbifera",5,10
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,219,"Litter",88,88
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,219,"Moringa looking 1985",1,5
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,219,"Quercus sp.",2,3
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,219,"Smilax sp.",2,3
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,3,"Batis maritima",1,1
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,3,"Laguncularia racemosa",30,60
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,4,"Avicennia germinans",5,8
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,4,"Sesuvium portulacastrum",90,95
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,5,"Avicennia germinans",2,3
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,5,"Laguncularia racemosa",1,1
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,5,"Pneumatophore",10,20
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,5,"Rhizophora mangle",10,35
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Avicennia germinans",0,40
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Laguncularia racemosa",1,1
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Litter",3,3
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Pneumatophore",45,50
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Rhizophora mangle",10,40
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Avicennia germinans",15,60
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Blutaparon vermiculare",4,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Laguncularia racemosa",4,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Litter",5,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Pneumatophore",5,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Rhizophora mangle",8,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,3,"Avicennia germinans",0,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,3,"Litter",3,3
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,3,"Pneumatophore",65,70
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,3,"Rhizophora mangle",4,20
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,4,"Avicennia germinans",2,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,4,"Litter",5,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,4,"Pneumatophore",25,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,4,"Rhizophora mangle",20,50
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Avicennia germinans",0,20
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Litter",5,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Pneumatophore",80,90
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Rhizophora mangle",1,2
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Avicennia germinans",8,50
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Blutaparon vermiculare",20,35
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Pneumatophore",5,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Suaeda linearis",1,1
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,2,"Avicennia germinans",30,90
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,2,"Pneumatophore",10,10
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,2,"Rhizophora mangle",20,55
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Avicennia germinans",10,45
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Batis maritima",4,8
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Laguncularia racemosa",0,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Pneumatophore",10,10
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Rhizophora mangle",20,45
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Suaeda linearis",2,3
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Avicennia germinans",1,1
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Laguncularia racemosa",0,40
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Litter",10,10
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Pneumatophore",65,80
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Rhizophora mangle",3,20
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Avicennia germinans",4,50
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Batis maritima",5,8
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Blutaparon vermiculare",30,50
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Borrichia frutescens",2,4
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Pneumatophore",2,2
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Rhizophora mangle",1,3
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Litter",30,85
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Pneumatophore",60,80
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Rhizophora mangle",8,10
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,2,"Avicennia germinans",12,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,2,"Blutaparon vermiculare",3,5
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,2,"Litter",10,10
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,2,"Rhizophora mangle",10,30
+"Fort DeSoto","Control","Fort DeSoto","Mangrove","2019-4",2019-11-19,3,"Avicennia germinans",6,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Conocarpus erectus",20,35
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Ipomoea macrorhiza",0,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Macroptilium lathyroides",2,6
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Paspalum distichum",30,60
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Sesuvium portulacastrum",1,3
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Suaeda linearis",1,1
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,1,"Vigna luteola",10,25
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Conocarpus erectus",2,4
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Dactyloctenium aegyptium",3,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Limonium carolinianum",15,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Paspalum notatum",20,35
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Phyla nodiflora",15,30
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Sesuvium portulacastrum",2,4
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,2,"Spermacoce verticillata",12,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Cyperus polystachyos",7,14
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Dichondra carolinensis",10,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Ipomoea macrorhiza",0,25
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Macroptilium lathyroides",3,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Paspalum distichum",35,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Phyla nodiflora",8,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,3,"Vigna luteola",0,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Bidens alba",0,2
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Dactyloctenium aegyptium",3,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Euphorbia hirta",3,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Fimbristylis spathacea",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Paspalum distichum",4,6
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Paspalum notatum",20,40
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Phyla nodiflora",45,70
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,4,"Spermacoce verticillata",20,40
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Bidens alba",4,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Cenchrus spinifex",12,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Conocarpus erectus",10,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Eustachys glauca",30,40
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Ipomoea macrorhiza",2,3
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Paspalum distichum",20,30
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2019-4",2019-11-19,5,"Paspalum notatum",10,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,1,"Bidens alba",15,30
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,1,"Paspalum notatum",25,65
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,2,"Phyla nodiflora",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,2,"Stenotaphrum secundatum",30,45
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,3,"Bidens alba",3,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,3,"Conocarpus erectus",10,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,3,"Soft vine",3,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,3,"Stenotaphrum secundatum",40,65
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,4,"Borrichia frutescens",15,25
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,4,"Paspalum distichum",10,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Bidens alba",10,25
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Conocarpus erectus",5,25
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Dichondra carolinensis",10,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Paspalum distichum",2,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Paspalum notatum",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Phyla nodiflora",5,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-2",2020-05-05,5,"Stenotaphrum secundatum",5,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,1,"Avicennia germinans",2,3
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,1,"Conocarpus erectus",30,60
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,1,"Paspalum distichum",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,1,"Rhizophora mangle",4,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,1,"Sesuvium portulacastrum",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,1,"Spartina alterniflora",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Dichondra carolinensis",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Macroptilium lathyroides",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Paspalum notatum",25,30
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Phyla nodiflora",12,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Stenotaphrum secundatum",15,20
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Succulent",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,2,"Vine",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,3,"Bidens alba",4,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,3,"Paspalum notatum",65,90
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,4,"Avicennia germinans",1,1
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,4,"Borrichia frutescens",20,30
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,4,"Paspalum distichum",45,70
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,5,"Bidens alba",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,5,"Conocarpus erectus",30,40
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,5,"Paspalum distichum",30,40
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,5,"Seutera angustifolia",10,15
+"Fort DeSoto","Restoration","Fort DeSoto","Buttonwood","2020-4",2020-11-19,5,"Vine",8,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Avicennia germinans",4,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Laguncularia racemosa",1,2
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Litter",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Pneumatophore",30,50
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Rhizophora mangle",2,5
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,1,"Spartina alterniflora",3,4
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,2,"Spartina alterniflora",1,2
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,3,"Litter",3,3
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,3,"Spartina alterniflora",7,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,4,"Litter",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,4,"Pneumatophore",20,40
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,4,"Spartina alterniflora",4,6
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,5,"Litter",10,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2019-4",2019-11-19,5,"Spartina alterniflora",20,40
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Litter",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Spartina alterniflora",40,65
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,1,"Ulva intestinalis",2,2
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Litter",15,15
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,2,"Pneumatophore",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,3,"Litter",15,15
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,3,"Spartina alterniflora",30,60
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,4,"Halodule wrightii",1,1
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Litter",25,25
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Paspalum distichum",1,1
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Rhizophora mangle",6,12
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Sesuvium portulacastrum",1,3
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-2",2020-05-05,5,"Spartina alterniflora",50,75
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Litter",5,5
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Rhizophora mangle",12,20
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,1,"Spartina alterniflora",30,40
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,2,"Halodule wrightii",10,15
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,2,"Litter",10,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Avicennia germinans",2,3
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Borrichia frutescens",10,15
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Laguncularia racemosa",4,6
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Litter",10,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Paspalum distichum",40,50
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Rhizophora mangle",2,3
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,3,"Spartina alterniflora",5,10
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Avicennia germinans",1,1
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Borrichia frutescens",20,30
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,4,"Paspalum distichum",45,70
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Halodule wrightii",10,20
+"Fort DeSoto","Restoration","Fort DeSoto","Mangrove","2020-4",2020-11-19,5,"Litter",30,30
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,10,"Litter",98,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,10,"Quercus virginiana",1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,10,"Scleira triglom",1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,11,"Eugenia axillaris",1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,11,"Litter",93,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,11,"Oplismenus setarius",5,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,11,"Pseudelephantopus spicatus",1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,12,"Ardisia escallonioides",2,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,12,"Litter",97,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,12,"Rivinia humola",1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,13,"Litter",99,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,13,"Plumbago zeylancia",1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,14,"Litter",99,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,14,"Smilax bona-nox",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,5,"Blechnum serrulatum",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,5,"Litter",98,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,5,"Pteridium aquilinum",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,6,"Blechnum serrulatum",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,6,"Litter",95,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,6,"Morella cerifera",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,6,"Pteridium aquilinum",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,6,"Rubus trivialis",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,6,"Toxicodendron radicans",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,7,"Blechnum serrulatum",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,7,"Linaria canadensis",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,7,"Litter",92,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,7,"Quercus virginiana",6,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,8,"Blechnum serrulatum",2,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,8,"Litter",98,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,9,"Litter",96,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,9,"Morella cerifera",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,9,"Pteridium aquilinum",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,9,"Quercus virginiana",1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,9,"Vitis rotundifolia",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,0,"Blechnum serrulatum",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,0,"Galactia elliottii",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,0,"Hypericum hypericoides",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,0,"Litter",97,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,0,"Serenoa repens",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,1,"Bare",14,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,1,"Blechnum serrulatum",2,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,1,"Litter",83,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,1,"Serenoa repens",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Bare",20,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Blechnum serrulatum",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Digitaria elotina",5,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Galactia elliottii",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Litter",71,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Ludwigia maritima",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,2,"Scoparia dulcis",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,3,"Blechnum serrulatum",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,3,"Galactia elliottii",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,3,"Pteridium aquilinum",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,3,"Serenoa repens",10,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,3,"Vitis rotundifolia",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Bare",2,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Callicarpa americana",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Chamaecrista fasciculata",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Dichanthelium sp.",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Galactia elliottii",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Imperata cylindrica",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Litter",91,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Myrsine cubana",1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,4,"Urena lobata",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,221,"Litter",84,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,221,"Melilotus albus",16,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,238,"Bidens alba",50,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,238,"Paspalum notatum",50,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,264,"Ambrosia artemisiifolia",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,264,"Bare",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,264,"Bidens alba",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,264,"Litter",92,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,264,"Sonchus oleraceus",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,279,"Bare",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,279,"Litter",64,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,279,"Paspalum notatum",26,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,279,"Phyla nodiflora",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,279,"Sida rhombifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,279,"Vigna luteola",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,293,"Bidens alba",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,293,"Conyza canadensis",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,293,"Litter",38,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,293,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,293,"Oenothera laciniata",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,293,"Paspalum notatum",57,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,367,"Litter",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,367,"Paspalum notatum",96,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Bare",5,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Bidens alba",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Bulbostylis ciliatifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Litter",82,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Melilotus albus",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Oenothera simulans",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Portulaca pilosa",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,10,"Sida ulmifolia",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,11,"Cenchrus spiniflex",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,11,"Litter",92,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,11,"Phyla nodiflora",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,11,"Portulaca pilosa",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,11,"Sida sp.",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,12,"Litter",69,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,12,"Melilotus albus",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,12,"Paspalum notatum",25,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,12,"Phyla nodiflora",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,12,"Vicia acutifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,13,"Fimbristylis cymosa",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,13,"Litter",78,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,13,"Paspalum notatum",20,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,13,"Sida ulmifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,14,"Litter",69,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,14,"Panicum repens",15,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,14,"Paspalum notatum",15,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,14,"Spermacoce verticillata",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,15,"Litter",92,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,15,"Panicum repens",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,15,"Paspalum notatum",6,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,15,"Sida sp.",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,16,"Commelina diffusa",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,16,"Litter",12,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,16,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,16,"Panicum repens",5,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,16,"Paspalum notatum",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,16,"Vicia sp.",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,17,"Litter",76,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,17,"Oenothera simulans",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,17,"Panicum repens",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,17,"Paspalum notatum",20,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,17,"Sida ulmifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,17,"Vigna luteola",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Ambrosia sp.",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Bare",10,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Indigofera hirsuta",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Litter",80,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Oenothera simulans",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Panicum repens",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,18,"Phyla nodiflora",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,19,"Commelina sp.",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,19,"Cynodon dactylon",30,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,19,"Cyperus ligularis",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,19,"Litter",68,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,320,"Bare",7,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,320,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,320,"Indigofera repens",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,320,"Litter",55,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,320,"Paspalum notatum",36,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,345,"Croton glandulosus",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,345,"Cyperus esculentus",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,345,"Litter",98,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,NA,"Litter",100,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,NA,"Ambrosia artemisiifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,NA,"Bare",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,NA,"Litter",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,NA,"Paspalum notatum",92,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,10,"Cyperus esculentus",4,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,10,"Litter",95,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,10,"Richardia grandiflora",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,11,"Litter",26,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,11,"Paspalum notatum",72,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,11,"Richardia grandiflora",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,12,"Bidens alba",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,12,"Indigofera repens",12,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,12,"Litter",53,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,12,"Paspalum notatum",33,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,13,"Litter",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,13,"Paspalum notatum",98,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,14,"Bidens alba",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,14,"Litter",37,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,14,"Paspalum notatum",60,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,14,"Vigna luteola",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,15,"Indigofera repens",7,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,15,"Oenothera simulans",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,15,"Paspalum notatum",71,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,16,"Bare",6,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,16,"Litter",93,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,16,"Paspalum notatum",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,17,"Paspalum notatum",100,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,18,"Bare",66,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,18,"Cyperus esculentus",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,18,"Euphorbia hyssopifolia",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,18,"Litter",31,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,19,"Bare",54,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,19,"Litter",46,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,216,"Conyza canadensis",16,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,216,"Helianthus debilis",84,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,232,"Cyperus ligularis",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,232,"Paspalum notatum",91,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,232,"Vigna luteola",7,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Bare",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Bidens alba",3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Eustachys glauca",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Ipomoea pes-caprae",12,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Litter",79,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,257,"Phyla nodiflora",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,263,"Helenium amarum",8,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,263,"Heterotheca subaxillaris",10,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,263,"Oenothera simulans",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,263,"Paspalum notatum",2,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,263,"Sida rhombifolia",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,294,"Bidens alba",40,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,294,"Ipomoea triloba",60,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,305,"Paspalum notatum",100,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,315,"Bidens alba",15,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,315,"Ipomoea triloba",85,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,335,"Cyperus ligularis",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,335,"Paspalum notatum",99,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,346,"Bidens alba",30,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,346,"Ipomoea pes-caprae",70,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,365,"Bidens alba",11,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,365,"Cynodon dactylon",1,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,365,"Ipomoea triloba",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,0,"Panicum repens",30,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,0,"Sida cordifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,1,"Litter",69,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,1,"Panicum repens",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,1,"Paspalum notatum",30,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Cenchrus spiniflex",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Dysphania ambrosioides",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Litter",75,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Panicum repens",20,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Sida ulmifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,2,"Spermacoce verticillata",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Bacopa monnieri",4,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Bare",6,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Cyperus ligularis",4,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Fimbristylis spathacea",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Litter",78,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Melilotus albus",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Oenothera simulans",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Paspalum vaginatum",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Phyla nodiflora",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Sesuvium portulacastrum",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Urochloa distachya",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,3,"Vigne luteola",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,4,"Litter",70,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,4,"Paspalum notatum",30,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Ambrosia artemisiifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Bare",8,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Bidens alba",5,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Litter",76,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Melilotus albus",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Oenothera simulans",5,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,10,"Sida rhombifolia",4,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,22,"Litter",16,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,22,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,22,"Panicum repens",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,22,"Paspalum notatum",83,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Bare",59,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Conyza canadensis",2,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Croton glandulosus",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Cyperus esculentus",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Litter",33,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Oenothera laciniata",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Paspalum notatum",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,28,"Sida rhombifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,97,"Paspalum notatum",99,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,97,"Sida rhombifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,99,"Paspalum notatum",100,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,0,"Litter",14,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,0,"Paspalum notatum",84,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,0,"Vigna luteola",2,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,1,"Cyperus ligularis",4,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,1,"Litter",4,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,1,"Paspalum notatum",90,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,1,"Vigna luteola",2,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,2,"Paspalum notatum",99,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,2,"Sida cordifolia",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,3,"Litter",100,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,4,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,4,"Paspalum notatum",99,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,21,"Bidens alba",6,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,21,"Corchorus aestuans",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,21,"Ipomoea triloba",71,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,21,"Litter",22,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,31,"Commelina diffusa",95,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,31,"Ipomoea triloba",4,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,31,"Vigna luteola",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,66,"Indigofera hirsuta",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,66,"Paspalum notatum",99,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,86,"Bidens alba",3,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,86,"Corchorus aestuans",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,86,"Litter",64,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,86,"Paspalum notatum",31,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,86,"Vigna luteola",1,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,9,"Indigofera hirsuta",13,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,9,"Litter",15,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,9,"Paspalum notatum",65,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,9,"Urochloa adspersa",7,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,5,"Litter",72,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,5,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,5,"Paspalum notatum",25,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,5,"Rhynchosia minima",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,5,"Zeuxine strateumatica",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,6,"Bare",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,6,"Cynodon dactylon",25,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,6,"Litter",67,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,6,"Paspalum notatum",6,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,6,"Phyla nodiflora",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Ambrosia artemisiifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Bare",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Conyza canadensis",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Indigofera hirsuta",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Litter",87,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Panicum repens",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Paspalum notatum",6,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,7,"Sida ulmifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Ambrosia artemisiifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Bare",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Bidens sp.",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Cynodon dactylon",7,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Fimbristylis spathacea",3,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Gomphrena serata",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Litter",63,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Paspalum notatum",15,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Phyla nodiflora",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Scoparia dulcis",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Sida ulmifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,8,"Sporobolus indicus",3,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,9,"Litter",75,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2020-1",2020-02-11,9,"Paspalum notatum",25,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Ambrosia artemisiifolia",4,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Conyza canadensis",11,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Lepidium virginicum",12,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Litter",68,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Melilotus albus",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Oenothera simulans",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,119,"Portulaca pilosa",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Bare",25,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Conyza canadensis",4,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Heliotropium angiospermum",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Lepidium virginicum",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Litter",59,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Oenothera laciniata",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Oenothera simulans",6,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Raphanus raphanistrum",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,131,"Richardia brasiliensis",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,139,"Bare",49,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,139,"Litter",49,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,139,"Oenothera simulans",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,176,"Bare",32,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,176,"Conyza canadensis",12,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,176,"Euphorbia hyssopifolia",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,176,"Litter",54,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,178,"Ambrosia artemisiifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,178,"Bare",96,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,178,"Melilotus albus",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,178,"Oenothera simulans",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,5,"Croton sp.",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,5,"Cynodon dactylon",51,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,5,"Eustachys glauca",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,5,"Litter",46,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,6,"Conyza canadensis",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,6,"Helianthus debilis",99,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,7,"Bare",81,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,7,"Euphorbia hyssopifolia",17,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,7,"Indigofera hirsuta",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,7,"Portulaca pilosa",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,8,"Bare",69,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,8,"Conyza canadensis",21,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,8,"Litter",10,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,9,"Ambrosia sp.",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,9,"Bare",76,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,9,"Conyza canadensis",7,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,9,"Euphorbia hyssopifolia",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,9,"Litter",14,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,144,"Bare",22,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,144,"Cyperus esculentus",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,144,"Euphorbia prostrata",73,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,144,"Litter",3,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,144,"Macroptilium lathyroides",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,147,"Bare",51,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,147,"Cyperus esculentus",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,147,"Dactyloctenium aegyptium",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,147,"Euphorbia hyssopifolia",31,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,147,"Litter",15,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,147,"Sida rhombifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Bare",54,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Cynodon dactylon",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Euphorbia serpens",6,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Eustachys glauca",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Litter",11,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Oenothera simulans",24,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,154,"Panicum repens",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Bare",69,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Conyza canadensis",5,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Dactyloctenium aegyptium",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Euphorbia hyssopifolia",3,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Litter",18,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Oenothera simulans",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Phyla nodiflora",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,166,"Sida rhombifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,184,"Bare",9,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,184,"Cyperus esculentus",2,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,184,"Eragrostis elliottii",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,184,"Euphorbia hyssopifolia",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,184,"Euphorbia maculata",1,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,184,"Litter",86,NA

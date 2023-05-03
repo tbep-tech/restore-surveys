@@ -1,0 +1,833 @@
+"site","trt","scnd","zone","quarter","date","plot","pcq_direction","species","dbh_cm","tree_height","eye_height_m","dist_to_tree_m","angle"
+"Cockroach","Control","Cockroach Bay","Open Land","2020-1",2020-02-04,"2","3","Sabal palmetto",23.4,5.3,NA,16.5,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2020-1",2020-02-04,"2","2","Sabal palmetto",23.1,6.8,NA,8,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2020-1",2020-02-04,"2","4","Sabal palmetto",22.5,5.8,NA,20.7,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2020-1",2020-02-04,"2","1","none",NA,NA,NA,NA,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2020-1",2020-02-25,"10","2","Languncularia racemosa",15.5,6.7,NA,15.2,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2020-1",2020-02-25,"10","3","Conocarpus erectus",9.9,7.3,NA,16.5,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2020-1",2020-02-25,"10","1","Avicennia germinans",8.8,6.4,NA,9.8,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2020-1",2020-02-25,"10","4","none",NA,NA,NA,NA,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"8","4","Salix caroliniana",11.3,4,NA,23.8,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"8","1","Salix caroliniana",7.5,8.5,NA,6.7,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"8","2","Salix caroliniana",6.8,7,NA,5.8,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"8","3","Salix caroliniana",4.5,5.5,NA,25,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"7","1","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"7","2","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"7","3","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2020-1",2020-02-27,"7","4","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2020-1",2020-03-01,"4","4","Rhizophora mangle",21.5,6.6,NA,3,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2020-1",2020-03-01,"4","3","Rhizaphora mangle",13.5,4.3,NA,2.5,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2020-1",2020-03-01,"4","2","Rhizophora mangle",12.5,6.7,NA,1.8,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2020-1",2020-03-01,"4","1","Avicennia germinans",12.5,6.7,NA,1.6,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2020-1",2020-03-01,"3","4","Rhizophora mangle",11,5.9,NA,2.2,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2020-1",2020-03-01,"3","3","Rhizophora mangle",6.9,7.1,NA,1.6,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2020-1",2020-03-01,"3","2","Rhizophora mangle",6.7,12.9,NA,0.7,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2020-1",2020-03-01,"3","1","Rhizophora mangle",5.1,7.2,NA,2.9,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2020-1",2020-03-03,"9","1","Avicennia germinans",4,1.4,NA,1.7,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2020-1",2020-03-03,"9","3","Avicennia germinans",3.5,1.8,NA,2.3,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2020-1",2020-03-03,"9","2","Avicennia germinans",2.8,1.6,NA,4.9,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2020-1",2020-03-03,"9","4","Avicennia germinans",2.7,2,NA,11,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-03,"6","1","Languncularia racemosa",15,7,NA,1,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-03,"6","2","Languncularia racemosa",14.3,7.6,NA,1.5,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-03,"6","4","Languncularia racemosa",9.7,4.3,NA,7.6,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-03,"6","3","Languncularia racemosa",7.2,6,NA,1.6,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2020-1",2020-03-03,"1","1","Sabal palmetto",35,3.5,NA,9.8,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2020-1",2020-03-03,"1","2","Sabal palmetto",30,5.5,NA,5.8,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2020-1",2020-03-03,"1","4","Sabal palmetto",14.5,2.9,NA,2.1,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2020-1",2020-03-03,"1","3","Casuarina equisetifolia",6.3,6.4,NA,1,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-04,"5","1","Sabal palmetto",32,11,NA,2.4,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-04,"5","4","Sabal palmetto",27.4,10.7,NA,2.7,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-04,"5","3","Schinus terebinthifolius",25.2,8.2,NA,3.4,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2020-1",2020-03-04,"5","2","Schinus terebinthifolius",1.5,6.4,NA,7,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2021-3",2021-09-16,"13","1","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2021-3",2021-09-16,"13","2","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2021-3",2021-09-16,"13","3","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Freshwater Marsh","2021-3",2021-09-16,"13","4","none",NA,NA,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2021-3",2021-09-16,"19","4","Sabal palmetto",26.5,1.9,NA,2.1,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2021-3",2021-09-16,"19","2","Sabal palmetto",2.7,2.8,NA,2,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2021-3",2021-09-16,"19","1","Baccharis halimifolia",2.2,1.2,NA,1.6,NA
+"Cockroach","Control","Cockroach Bay","Open Land","2021-3",2021-09-16,"19","3","Baccharis halimifolia",1.3,1,NA,1.2,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2021-3",2021-09-16,"23","3","Languncularia racemosa",4.1,1,NA,1,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2021-3",2021-09-16,"23","2","Languncularia racemosa",3.7,1.2,NA,1,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2021-3",2021-09-16,"23","4","Languncularia racemosa",2.6,1.5,NA,3,NA
+"Cockroach","Control","Cockroach Bay","Salt Marsh","2021-3",2021-09-16,"23","1","Languncularia racemosa",2,0.5,NA,0.5,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"27","3","Avicennia germinans",9.5,1.8,NA,0.5,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"27","4","Avicennia germinans",8,1.8,NA,0.5,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"27","1","Schinus terebinfolius",4.8,2,NA,3,NA
+"Cockroach","Control","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"27","2","none",NA,NA,NA,NA,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2021-3",2021-09-16,"17","1","Avicennia germinans",10.4,1.5,NA,1.3,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2021-3",2021-09-16,"17","2","Languncularia racemosa",1.6,0.7,NA,1.5,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2021-3",2021-09-16,"17","4","Languncularia racemosa",1.1,0.7,NA,0.4,NA
+"Cockroach","Restoration","Cockroach Bay","Mangrove","2021-3",2021-09-16,"17","3","Languncularia racemosa",1,0.8,NA,0.5,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2021-3",2021-09-16,"21","2","Sabal palmetto",50,3.1,NA,4,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2021-3",2021-09-16,"21","1","Sabal palmetto",41,2.1,NA,1.2,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2021-3",2021-09-16,"21","3","Sabal palmetto",35,1.8,NA,0.5,NA
+"Cockroach","Restoration","Cockroach Bay","Open Land","2021-3",2021-09-16,"21","4","Sabal palmetto",23,4,NA,2.2,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"5","3","Sabal palmetto",47,2.7,NA,3.4,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"5","1","Sabal palmetto",41,3.9,NA,2,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"5","4","Sabal palmetto",28,4.2,NA,2.6,NA
+"Cockroach","Restoration","Cockroach Bay","Wetland Forest Mixed","2021-3",2021-09-16,"5","2","Forestiera segregata",1,0.5,NA,NA,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2021-3",2021-10-05,"15","3","Avicennia germinans",9.5,5.2,NA,3,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2021-3",2021-10-05,"15","1","Rhizophora mangle",9.4,6.7,NA,2,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2021-3",2021-10-05,"15","4","Rhizophora mangle",9.4,8.3,NA,1,NA
+"Cockroach","Control","Cockroach Bay","Mangrove","2021-3",2021-10-05,"15","2","Rhizophora mangle",5.6,5.7,NA,2.5,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2021-3",2021-10-05,"13","2","Myrica cerifera",6.5,2.2,NA,3.3,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2021-3",2021-10-05,"13","3","Myrica cerifera",5.4,2.9,NA,3,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2021-3",2021-10-05,"13","1","Languncularia racemosa",4.5,1.5,NA,2,NA
+"Cockroach","Restoration","Cockroach Bay","Freshwater Marsh","2021-3",2021-10-05,"13","4","none",NA,NA,NA,NA,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2021-3",2021-10-16,"25","1","Languncularia racemosa",16.1,1.7,NA,5,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2021-3",2021-10-16,"25","2","Languncularia racemosa",7,1.2,NA,1,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2021-3",2021-10-16,"25","3","Conocarpus erectus",6.3,1.5,NA,1,NA
+"Cockroach","Restoration","Cockroach Bay","Salt Marsh","2021-3",2021-10-16,"25","4","Schinus terebinfolius",4,1,NA,3.2,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"000","3","Quercus laurifolia",38.9,11.77,1.54,1.67,45
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"000","4","Quercus laurifolia",3.4,2.95477173603633,1.54,5.13,15
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"000","1","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"000","2","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"001","3","Schinus terebinthifolia",9.7,5.3151369647965,1.54,7.1,28
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"001","1","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"001","2","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"001","4","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"002","4","Quercus laurifolia",14.2,10.06,1.54,2.13,45
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"002","3","Quercus laurifolia",11.2,7.28879803756581,1.54,5.56,32
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"002","1","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"002","2","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"003","3","Quercus laurifolia",59.5,11.1029360684422,1.54,7.29,38
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"003","2","Quercus laurifolia",44.1,14.9500235897093,1.54,7.93,39
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"003","1","Taxodium ascendens",42.4,8.08273261337154,1.54,2.98,34
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"003","4","Quercus laurifolia",30.3,6.45532468580624,1.54,6.55,24
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"004","1","Quercus laurifolia",45.6,9.88674549064098,1.54,3.39,42
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"004","2","Quercus laurifolia",44.6,19.013794764971,1.54,2.06,51
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"004","4","Quercus laurifolia",14.3,3.66981674793362,1.54,5.7,12
+"Copeland","Restoration","Copeland","Freshwater Marsh","2020-1",2021-03-12,"004","3","Schinus terebinthifolia",1.2,2.18,1.54,2.99,NA
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"000","3","Quercus virginiana",64.3,15.1008731099331,1.54,9.85,41
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"000","4","Quercus laurifolia",20.8,15.9196050902626,1.54,12.5,49
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"000","1","Myrica cerifera",5,4.44724873787768,1.54,10.85,15
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"000","2","Cinnamomum camphora",3.6,3.04465218308309,1.54,9.5,9
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"001","4","Quercus laurifolia",46,18.8258290690466,1.54,11.5,44
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"001","1","Cinnamomum camphora",31.7,11.5813220116181,1.54,5.25,39
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"001","3","Quercus laurifolia",25.5,8.42372048789361,1.54,2.8,33
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"001","2","Quercus laurifolia",4,2.28394796584508,1.54,12.75,12
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"002","4","Quercus laurifolia",22.2,11.6881970751476,1.54,3.3,46
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"002","2","Quercus laurifolia",14.9,3.3875208614068,1.54,3.2,30
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"002","3","Serenoa repens",6.6,6.53775631673137,1.54,4.5,48
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"002","1","Serenoa repens",0.9,1.73,1.54,2.65,NA
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"003","2","Serenoa repens",8.6,7.77533705560155,1.54,0.9,39
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"003","3","Serenoa repens",8.1,6.40042362316302,1.54,1.4,37
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"003","1","Serenoa repens",3.2,3.82053356329902,1.54,1.45,30
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"003","4","Serenoa repens",2.4,3.10669064046798,1.54,1.3,19
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"004","3","Quercus laurifolia",13.2,8.60846435292348,1.54,7.58,43
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"004","4","Magnolia grandiflora",10,6.33642163673651,1.54,2.2,35
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"004","2","Magnolia grandiflora",9.1,6.41344446593958,1.54,2.2,35
+"Copeland","Restoration","Copeland","Uplands","2020-1",2021-03-12,"004","1","Quercus virginiana",4.5,19.8651064946817,1.54,5.95,48
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"08","2","Taxodium ascendens",30.7,7.88712514348724,1.54,10.5,34
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"08","4","Quercus laurifolia",10.9,6.71135192893893,1.54,3.34,25
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"08","3","Taxodium ascendens",8.4,5.70860194422599,1.54,4.48,28
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"08","1","Taxodium ascendens",2.8,2.36776896943936,1.54,1.37,14
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"10a","3","Triadica sebifera",26.3,6.58722919983151,1.54,3.25,31
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"10a","2","Sabal palmetto",23.4,3.53931853514738,1.54,NA,13
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"10a","4","Taxodium ascendens",3.1,2.44007409026388,1.54,8.66,14
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"10a","1","Quercus laurifolia",0.9,1.8,1.54,2.18,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"11a","4","Sabal palmetto",23.4,3.53931853514738,1.54,3.34,13
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"11a","3","Quercus laurifolia",11.4,4.35756201715995,1.54,4.04,21
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"11a","2","Quercus laurifolia",4.3,3.12368492995586,1.54,2.82,17
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"11a","1","Triadica sebifera",1.5,2.63823482745623,1.54,0.9,16
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"12","1","Quercus laurifolia",48.2,9.23101592355277,1.54,6.05,31
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"12","2","Quercus laurifolia",14.4,16.7785965139185,1.54,12.76,41
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"12","3","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"12","4","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"7a","1","Quercus laurifolia",13.8,8.04635273146859,1.54,6.72,26
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"7a","2","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"7a","3","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-2",2021-06-18,"7a","4","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"07","2","Quercus virginiana",74.1,20.1655205163783,1.54,4.23,35
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"07","3","Cinnamomum camphora",15.8,11.7045260008524,1.54,4.15,38
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"07","4","Prunus caroliniana",1,2.61815445255638,1.54,4.63,13
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"07","1","Prunus caroliniana",0.9,2.2,1.54,3.07,NA
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"08","2","Prunus caroliniana",13.9,11.0155719620646,1.54,0.64,31
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"08","3","Prunus caroliniana",3.6,4.82237760728125,1.54,1.12,15
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"08","1","Prunus caroliniana",2.8,3.89864415103421,1.54,1.18,19
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"08","4","Prunus caroliniana",1.2,3.3299006054399,1.54,0.66,15
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"09","1","Quercus laurifolia",35.8,14.8357282624981,1.54,3.57,36
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"09","4","Prunus caroliniana",4,4.92373800834488,1.54,6.93,24
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"09","2","Prunus caroliniana",3.7,4.25885764996853,1.54,4.04,20
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"09","3","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"10","4","Prunus caroliniana",2.4,2.49486213457683,1.54,0.93,16
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"10","1","Prunus caroliniana",0.8,2.16,1.54,1.02,NA
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"10","3","Prunus caroliniana",0.7,1.72,1.54,0.74,NA
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"10","2","Prunus caroliniana",0.6,1.61,1.54,0.95,NA
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"11","4","Quercus laurifolia",54,17.0285907451988,1.54,5.65,35
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"11","1","Quercus laurifolia",27.7,12.6649826626571,1.54,4.04,29
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"11","2","Prunus caroliniana",13.4,8.58797008843413,1.54,3.04,24
+"Copeland","Restoration","Copeland","Uplands","2021-2",2021-06-18,"11","3","Prunus caroliniana",4.8,3.89488741570233,1.54,0.79,20
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"15a","1","Quercus laurifolia",21.5,2.6,1.54,6.23,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"15a","3","Taxodium ascendens",3.9,13.2420250030142,1.79,7.35,29
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"15a","2","Taxodium ascendens",3.5,2.5,1.54,4.97,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"15a","4","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"16a","2","Quercus laurifolia",60.7,14.8176223628112,1.54,5.8,37
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"16a","1","Taxodium ascendens",45,9.85463577179154,1.54,5,29
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"16a","4","Quercus laurifolia",31.1,11.2064774676057,1.54,4.6,28
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"16a","3","Quercus laurifolia",16.6,6.91809592137569,1.54,8.87,23
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"17a","1","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"17a","2","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"17a","3","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"17a","4","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"018","4","Quercus laurifolia",15,3.75430595208901,1.54,2.31,26
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"018","1","Quercus laurifolia",12.1,6.27349142580324,1.54,0.93,27
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"018","2","Quercus laurifolia",3.8,4.02608249452886,1.54,2.5,16
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"018","3","none",NA,NA,NA,NA,NA
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"019","4","Quercus laurifolia",30.9,11.3330665054185,1.54,3.28,33
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"019","2","Quercus nigra",25.6,9.46334338221027,1.54,3.12,32
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"019","1","Quercus laurifolia",20.4,6.69133437939825,1.54,2.65,22
+"Copeland","Restoration","Copeland","Freshwater Marsh","2021-3",2021-10-08,"019","3","Quercus nigra",8.6,4.10599015157673,1.54,3.43,20
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"16","2","Quercus laurifolia",33.8,15.5484512832654,1.54,5.46,38
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"16","3","Prunus caroliniana",11.8,6.6904561352555,1.54,4.53,26
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"16","1","Quercus laurifolia",9.1,5.29821536884977,1.54,3.1,29
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"16","4","Quercus laurifolia",8.2,5.51143987295214,1.54,5.44,24
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"215","2","Quercus laurifolia",79.3,21.3377777756802,1.54,6.83,38
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"215","4","Quercus laurifolia",44.8,20.2644363325615,1.54,3.8,41
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"215","3","Quercus laurifolia",27.9,6.52930711656725,1.54,5.79,19
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"215","1","Quercus laurifolia",11.9,11.9004508186997,1.54,7.06,34
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"217","3","Quercus laurifolia",71.2,21.5525262035781,1.54,2.16,40
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"217","1","Prunus caroliniana",17.7,12.1769993106051,1.54,5.26,34
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"217","2","Prunus caroliniana",4,3.87578240634417,1.54,7.5,17
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"217","4","Quercus laurifolia",2.2,2.3,1.54,6.79,NA
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"218","4","Quercus laurifolia",42.3,15.3060802012029,1.54,6.06,35
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"218","3","Sabal palmetto",40.3,4.50726899082376,1.54,7.26,21
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"218","2","Quercus laurifolia",36.9,14.9621936790124,1.54,11.8,32
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"218","1","Morus alba",27.8,5.59273600841936,1.54,8.4,19
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"219","4","Quercus laurifolia",28.5,8.75607187556328,1.54,2.68,23
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"219","3","Quercus laurifolia",22.1,8.75607187556328,1.54,1.74,23
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"219","2","palm 0062",18.2,8.16148402168372,1.54,2.12,31
+"Copeland","Restoration","Copeland","Uplands","2021-3",2021-10-08,"219","1","Citrus",2.4,2.68661095225459,1.54,3.53,19
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"000","1","tree 1",6.2,2.64028035962082,1.54,6.24,10
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"000","2","tree 1",3.9,2.61735189342796,1.54,2.96,20
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"000","3","Quercus laurifolia",2.1,2.33,1.54,3.1,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"000","4","Quercus laurifolia",1,3.07787941840073,1.54,2.28,34
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"002","4","Quercus minima",5.7,5.02798128299939,1.54,7.48,25
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"002","1","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"002","2","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"002","3","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"004","1","Quercus laurifolia",3.9,3.72231984016539,1.54,2.87,25
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"004","4","Quercus laurifolia",2.1,2.39,1.54,1.39,0
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"004","2","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"004","3","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"005","4","Quercus laurifolia",11,6.65140601835941,1.54,5.88,41
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"005","2","Quercus laurifolia",4.6,2.72969441439419,1.54,4.44,15
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"005","3","Quercus minima",3.2,2.06930641433184,1.54,6.05,5
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"005","1","Quercus nigra",1.3,1.88,1.54,5.05,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"006","3","Pinus palustris",15.2,16.2743460757391,1.54,7.04,47
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"006","4","Quercus laurifolia",1.6,1.86,1.54,5.23,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"006","1","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2020-1",2021-03-12,"006","2","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"000","1","Quercus minima",10.6,4.71746014514395,1.54,0.7,20
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"000","3","Quercus minima",2,2.79,1.54,0.8,NA
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"000","4","Quercus minima",1.9,2.21,1.54,2.6,NA
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"000","2","Quercus laurifolia",1.4,2.55,1.54,5.16,NA
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"001","4","Quercus nigra",16.9,8.65295531641619,1.54,4.5,30
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"001","2","Quercus nigra",14.3,7.87353245301019,1.54,4.27,30
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"001","1","Quercus nigra",3.9,4.55479247752058,1.54,3.37,28
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"001","3","Quercus laurifolia",0.8,1.78,1.54,1.35,NA
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"002","3","Quercus virginiana",52.2,20.13,1.54,3.1,45
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"002","2","Quercus nigra",13.4,10.8252135079085,1.54,1.05,36
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"002","4","Quercus nigra",3.1,3.63695516493406,1.54,1.19,19
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"002","1","Quercus laurifolia",1.5,2.0531655866515,1.54,0.88,9
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"003","3","Pinus palustris",28.9,13.8636526724909,1.54,1.05,35
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"003","4","Quercus virginiana",28,6.83231541626215,1.54,6.67,19
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"003","2","Pinus palustris",10.8,13.6374706529646,1.54,1.16,32
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"003","1","Quercus laurifolia",3.7,3.06062417837,1.54,2.23,18
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"004","4","Pinus palustris",41.4,16.9794332136619,1.54,4.82,40
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"004","1","Quercus virginiana",14.2,5.60918721909614,1.54,3.98,20
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"004","2","Quercus laurifolia",6.8,6.19921667236028,1.54,1.3,30
+"Copeland","Control","Cury","Uplands","2020-1",2021-03-12,"004","3","Magnolia grandiflora",1.3,2.06,1.54,3.29,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"7a","4","Quercus laurifolia",6.2,5.41318811350735,1.54,2.54,21
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"7a","3","Quercus nigra",2.4,2.63055321319467,1.54,1.98,15
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"7a","1","Quercus laurifolia",1.8,1.78,1.54,5.36,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"7a","2","Quercus laurifolia",1.3,1.89,1.54,0.65,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"8a","2","Quercus laurifolia",14.8,11.8127647115102,1.54,2.5,34
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"8a","3","Quercus laurifolia",12.2,8.51354196730809,1.54,3.74,32
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"8a","1","shrub",3.4,2.06,1.54,1.95,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"8a","4","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"9a","1","Quercus laurifolia",1.2,1.9,1.54,3.83,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"9a","2","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"9a","3","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"9a","4","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"11a","2","Quercus laurifolia",36,17.0878534373441,1.54,7.8,39
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"11a","3","Acer rubrum",7.9,11.3964869753445,1.54,5.41,37
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"11a","4","shrub",2.9,3.25,1.54,3.27,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"11a","1","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"12a","1","Acer rubrum",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"12a","2","Quercus laurifolia",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"12a","3","Salix sp.",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-2",2021-06-18,"12a","4","Acer rubrum",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"08","4","Quercus laurifolia",22.4,8.54261321498167,1.54,1.01,28
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"08","3","Quercus laurifolia",13.6,5.89086686614845,1.54,1.65,23
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"08","1","Quercus nigra",8.9,7.34401780393375,1.54,2.66,26
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"08","2","Quercus nigra",1.6,2.20089305106824,1.54,1.66,11
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"09","1","Quercus laurifolia",24.3,8.0109037833202,1.54,2.24,28
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"09","2","Prunus caroliniana",2.2,2.7866400142159,1.54,2.26,14
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"09","3","Prunus caroliniana",1.3,2.24365671907854,1.54,1.73,11
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"09","4","Cinnamomum camphora",1,1.48,1.54,3.46,NA
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"10","2","Quercus geminata",10.5,5.45801243071512,1.54,1.25,24
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"10","1","Cinnamomum camphora",3.1,4.29081179951146,1.54,1.4,26
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"10","3","Quercus laurifolia",2.9,3.05464876428571,1.54,1.78,10
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"10","4","Quercus laurifolia",0.9,1.36,1.54,1.96,NA
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"11","1","Prunus caroliniana",4.4,4.28846649085358,1.54,0.65,21
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"11","3","Quercus nigra",3.1,4.95889164558331,1.54,0.92,28
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"11","4","Cinnamomum camphora",2.3,4.07780350625866,1.54,1.65,24
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"11","2","Prunus caroliniana",0.9,1.39,1.54,0.74,NA
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"12","4","Quercus laurifolia",20.5,9.21718036262085,1.54,3.44,29
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"12","1","Quercus laurifolia",13.2,7.71500283318385,1.54,1.25,29
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"12","2","Quercus laurifolia",13.1,8.97049796447048,1.54,8.89,30
+"Copeland","Control","Cury","Uplands","2021-2",2021-06-18,"12","3","Magnolia grandiflora",4.1,3.41435580493098,1.54,2.71,10
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"118","1","Quercus nigra",3.4,2.57969777185606,1.54,5.09,14
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"118","3","Quercus nigra",1.6,1.8,1.54,3.29,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"118","4","Quercus laurifolia",1.4,2.15,1.54,2.42,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"118","2","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"119","2","Quercus laurifolia",13.2,3.73514629287318,1.54,4.42,17
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"119","4","Quercus nigra",6.6,3.73970634349678,1.54,5.42,18
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"119","3","Quercus nigra",3.9,2.60131648789194,1.54,3.33,11
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-08,"119","1","Quercus laurifolia",1.3,1.81,1.54,2.55,NA
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,"319","2","Quercus laurifolia",14.3,8.68225669232361,1.54,2.75,32
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,"319","1","Quercus nigra",6,6.69226439279973,1.54,3.2,28
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,"319","4","Quercus nigra",4.6,3.73970634349678,1.54,1.86,18
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-08,"319","3","Quercus nigra",1.7,2.60131648789194,1.54,0.95,11
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"115a","3","Quercus laurifolia",20,7.35468663012948,1.54,3.05,24
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"115a","1","Pinus elliottii",17.5,12.8301710315279,1.54,6.76,31
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"115a","4","Quercus laurifolia",2.3,2.74847327967621,1.54,4.75,9
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"115a","2","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"116a","2","Quercus minima",4,2.42054280039386,1.54,6,11
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"116a","4","Quercus minima",3.6,2.98610612329946,1.54,3.72,17
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"116a","1","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"116a","3","none",NA,NA,NA,NA,NA
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"117a","4","Acer rubrum",17.8,4.14910516075024,1.54,2.46,18
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"117a","1","Quercus nigra",17.1,10.0819024828872,1.54,3.16,29
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"117a","2","Quercus laurifolia",5.9,8.76061408196288,1.54,2.95,28
+"Copeland","Control","Cury","Freshwater Marsh","2021-3",2021-10-11,"117a","3","Quercus nigra",1.7,1.74,1.54,4.23,NA
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"316","1","Quercus virginiana",60.8,12.2565022880791,1.54,3.94,36
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"316","4","Quercus nigra",60,9.06373508669415,1.54,4.24,21
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"316","3","Quercus nigra",21.9,7.09636356086245,1.54,1.83,28
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"316","2","Prunus caroliniana",2.6,5.90520666766446,1.54,4.75,26
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"317","2","Quercus nigra",28.2,12.0623328627419,1.54,2.42,34
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"317","1","Quercus nigra",1.8,2.43061199339739,1.54,2.61,12
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"317","4","Quercus nigra",1.4,2.14303827402295,1.54,2.34,10
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"317","3","Quercus nigra",1.1,1.64,1.54,0.95,NA
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"318","3","Quercus laurifolia",34.8,9.83745932778506,1.54,0.73,35
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"318","4","Quercus nigra",5.6,4.7681695444229,1.54,2.26,22
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"318","1","Quercus nigra",4.8,5.64350739176399,1.54,2.28,25
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"318","2","Quercus nigra",1.1,2.55,1.54,0.87,NA
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"320","4","Quercus laurifolia",9.6,5.27537838264452,1.54,2.5,23
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"320","2","Quercus laurifolia",2.8,3.0135284968032,1.54,3.14,14
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"320","1","Quercus nigra",2.1,3.16561857853754,1.54,1.06,14
+"Copeland","Control","Cury","Uplands","2021-3",2021-10-11,"320","3","Quercus nigra",1.3,2.55366041807703,1.54,2.37,9
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"10","1","Quercus virginiana",57.32,NA,NA,2.1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"10","2","Sabal Palmetto",31.85,NA,NA,1.4,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"10","4","Citrus",4.14,4.1,NA,2.1,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"10","3","Ardisia sp.",0.96,4.13,NA,0.8,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"11","3","Quercus virginiana",45.22,NA,NA,4.31,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"11","1","Persea borbonia",8.59,NA,NA,6.4,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"11","4","Ardisia sp.",1.27,3.1,NA,1.61,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"11","2","Ardisia sp.",0.95,2.6,NA,1.3,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"12","4","Ardisia sp.",1.59,2.3,NA,2.22,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"12","1","Ardisia sp.",0.64,3.1,NA,2.21,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"12","2","Ardisia sp.",0.32,1.36,NA,0.61,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"12","3","Ardisia sp.",NA,0.51,NA,0.5,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"13","1","Eugenia axillaris",12.42,NA,NA,3.75,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"13","3","Eugenia axillaris",8.92,NA,NA,0.95,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"13","2","Eugenia axillaris",5.73,5.31,NA,1.5,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"13","4","Ardisia sp.",1.27,1.6,NA,3.8,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"14","4","Persea borbonia",13.38,8.1,NA,1.4,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"14","2","Washingtonia robusta",6.37,2.21,NA,1.81,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"14","1","Ardisia sp.",0.64,2.27,NA,1.27,NA
+"Robinson","Control","Emerson","Coastal Uplands","2020-1",2020-03-05,"14","3","Quercus virginiana",NA,1.21,NA,1.5,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"5","1","Quercus virginiana",43.63,7.32,NA,3.61,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"5","2","Carya glabra",30.57,4.62,NA,2.82,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"5","3","Quercus virginiana",6.05,4.62,NA,3.11,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"5","4","Myrsine Cubana",0.32,1.2,NA,1.46,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"6","3","Ficus aurea",28.98,7.4,NA,8.51,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"6","4","Myrsine Cubana",3.5,1.71,NA,1.64,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"6","1","Myrsine Cubana",1.91,3.23,NA,2.3,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"6","2","Sabal Palmetto",NA,0.46,NA,0.72,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"7","4","Quercus laurifolia",43.95,NA,NA,2.71,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"7","3","Persea borbonia",13.06,7.92,NA,0.98,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"7","2","Myrica cerifera",2.86,4.21,NA,3.42,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"7","1","Quercus laurifolia",0.64,2.31,NA,1.31,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"8","2","Quercus virginiana",61.78,NA,NA,0.71,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"8","3","Myrsine Cubana",2.23,6.84,NA,2.31,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"8","1","Myrica cerifera",0.95,2.17,NA,1.02,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"8","4","Myrsine Cubana",NA,1.37,NA,7.71,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"9","2","Quercus virginiana",25.79,4.93,NA,3.1,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"9","4","Quercus laurifolia",5.41,3.92,NA,1.14,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"9","1","Quercus laurifolia",4.14,3.76,NA,1.3,NA
+"Robinson","Control","Emerson","Live Oak Hammock","2020-1",2020-03-05,"9","3","Myrsine Cubana",0.32,1,NA,0.83,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"0","1","Pinus elliottii",28.66,15.87,NA,2.7,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"0","2","Quercus virginiana",12.42,10.61,NA,3.3,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"0","3","Quercus virginiana",NA,1.3,NA,2.52,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"0","4","No Trees w/in 10M",NA,NA,NA,NA,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"1","4","Myrsine Cubana",0.32,1.13,NA,1.42,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"1","1","Myrsine Cubana",0.32,2.47,NA,1.27,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"1","2","Myrsine Cubana",0.32,1.07,NA,1.14,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"1","3","No trees w/in 10M",NA,NA,NA,NA,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"2","3","Pinus elliottii",28.66,16.1,NA,1.2,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"2","2","Quercus virginiana",NA,0.9,NA,1.41,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"2","1","Quercus virginiana",NA,1.32,NA,0.83,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"2","4","No trees w/in 10M",NA,NA,NA,NA,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"3","2","Quercus virginiana",6.37,8.61,NA,4.1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"3","3","Quercus virginiana",5.73,2.2,NA,4.48,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"3","4","Quercus virginiana",2.55,2.32,NA,3.25,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"3","1","Quercus virginiana",0.46,12.8,NA,8.43,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"4","3","Sabal Palmetto",0.45,1.7,NA,4.2,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"4","2","Hyptis verticillata",0.32,1.52,NA,1.1,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"4","1","Callicarpa americana",0.32,2.17,NA,0.7,NA
+"Robinson","Control","Emerson","Pine Flatwoods","2020-1",2020-03-05,"4","4","Quercus virginiana",NA,0.81,NA,2.99,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","3","Avicennia germinans",24,9,NA,2.5,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","4","Avicennia germinans",15,3.5,NA,1.5,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","3","Rhizophora mangle",6,3,NA,1.15,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","4","Rhizophora mangle",5,2.2,NA,1.8,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","2","Laguncularia racemosa",17,3,NA,1.3,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","1","Avicennia germinans",10,3,NA,1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","3",NA,NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","4",NA,NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","2","Rhizophora mangle",10,4,NA,3,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","1","Rhizophora mangle",8,2,NA,2.05,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","3",NA,NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","4",NA,NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","1","Avicennia germinans",37,11,NA,2.3,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","2","Laguncularia racemosa",22,2,NA,2.6,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","3","Laguncularia racemosa",17,8,NA,1.85,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","4","Laguncularia racemosa",11,5,NA,1,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"1","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"1","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"2","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"3","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"3","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"4","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"5","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2019-4",2019-11-19,"5","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"1","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"2","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"3","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"4","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2019-4",2019-11-19,"5","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","1","Avicennia germinans",3.5,1.6,NA,0.95,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","3","Rhizophora mangle",3,1.7,NA,1.4,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","4","Rhizophora mangle",2,2.5,NA,1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","2","Avicennia germinans",1.8,1.6,NA,0.75,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","1","Avicennia germinans",22,3.8,NA,1.7,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","4","Laguncularia racemosa",3.2,3.1,NA,2.85,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","2","Rhizophora mangle",2.8,2.5,NA,1.4,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","3","Avicennia germinans",15,4.5,NA,3.2,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","1","Laguncularia racemosa",7.8,2.3,NA,1.8,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","4","Laguncularia racemosa",3.8,2.2,NA,2.1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","2","Rhizophora mangle",1,2,NA,4.2,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","2","Avicennia germinans",5,2.7,NA,1.1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","4","Laguncularia racemosa",2,1.9,NA,0.8,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","1","Rhizophora mangle",1.8,1.5,NA,1.05,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","3","Rhizophora mangle",1.5,1.45,NA,0.35,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","3","Rhizophora mangle",6.5,2.3,NA,2.5,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","2","Rhizophora mangle",1.2,1.8,NA,1.3,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","4","Rhizophora mangle",1,1.5,NA,1.6,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"1","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"1","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"2","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"3","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"3","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"4","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"4","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"4","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"5","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-2",2020-05-05,"5","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"1","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"2","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"3","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"4","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-2",2020-05-05,"5","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","3","Avicennia germinans",15,4,NA,2.5,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","1","Avicennia germinans",11.7,4.4,NA,1.35,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","2","Avicennia germinans",11,5.5,NA,2.55,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","4","Avicennia germinans",8.1,7.3,NA,3.8,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","4","Laguncularia racemosa",16,4.8,NA,1.6,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","2","Avicennia germinans",11.7,3.8,NA,1.55,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","3","Avicennia germinans",2.5,2.6,NA,0.45,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","4","Laguncularia racemosa",10.4,3.7,NA,1.4,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","3","Laguncularia racemosa",9.7,3.9,NA,2.1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","2","Laguncularia racemosa",11.7,2.2,NA,0.65,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","1","Laguncularia racemosa",8.9,2.1,NA,2.1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","4","Rhizophora mangle",2.3,2,NA,1.1,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","4","Avicennia germinans",4.8,4.8,NA,4.5,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","3","Laguncularia racemosa",1.8,1.72,NA,2.8,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Control","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"1","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"1","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"2","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"3","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"3","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"5","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Buttonwood","2020-4",2020-11-19,"5","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"1","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"2","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"3","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"4","4","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","1","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","2","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","3","none",NA,NA,NA,NA,NA
+"Fort DeSoto","Restoration","Ft DeSoto","Mangrove","2020-4",2020-11-19,"5","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"10","3","Sabal palmetto",40.77,3.35,NA,17.89,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"10","4","Sabal palmetto",39.1,4.88,NA,2.35,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"10","2","Sabal palmetto",30,4.27,NA,2.83,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"10","1","Sabal palmetto",29.12,4.12,NA,3.23,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"11","2","Sabal palmetto",33,3.51,NA,7.68,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"11","4","Casuarina sp.",4.85,3.05,NA,12.61,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"11","1","Casuarina sp.",2.91,3.05,NA,10.54,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"11","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"12","4","Sabal palmetto",45.62,3.96,NA,9.63,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"12","1","Casuarina sp.",38.8,5.49,NA,9.44,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"12","2","Sabal palmetto",31,3.05,NA,8.72,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"12","3","Sabal palmetto",28.15,3.05,NA,4.42,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"13","4","Coccoloba uvifera",38.83,2.44,NA,3.26,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"13","1","Sabal Palmetto",25.2,5.33,NA,5.49,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"13","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"13","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"14","4","Sabal Palmetto",36.89,2.74,NA,5.55,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"14","1","Sabal Palmetto",33,3.05,NA,6.92,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"14","2","Sabal Palmetto",26.21,3.66,NA,5.3,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2020-1",2020-02-11,"14","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"0","2","Coccoloba uvifera",52.24,2.13,NA,12.25,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"0","3","Pinus elliottii",14.56,7.62,NA,7.07,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"0","1","Carya sp.",NA,0.91,NA,4.57,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"0","4","Quercus virginiana",NA,NA,NA,1.2,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"2","3","Sabal Palmetto",31.06,3.35,NA,7.62,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"2","4","Sabal Palmetto",27.18,2.44,NA,2.35,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"2","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"2","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"4","4","Quercus virginiana",NA,0.91,NA,9.99,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"4","1","Quercus virginiana",NA,1.22,NA,9.35,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"4","2","Quercus virginiana",NA,0.91,NA,8.14,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2020-1",2020-02-11,"4","3","Carya sp.",NA,0.61,NA,4.39,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"221","4","Bursera simaruba",0.404253896912073,1.6764,NA,3.6576,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"221","3","Celtis laevigata",0.404253896912073,2.1336,NA,2.8956,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"221","1","Celtis laevigata",NA,1.2192,NA,3.048,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"221","2","Juniperus virginiana",NA,0.8382,NA,1.0668,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"238","1","Celtis laevigata",0.404253896912073,1.9812,NA,2.1336,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"238","4","Juniperus virginiana",NA,0.6096,NA,3.9624,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"238","3","Juniperus virginiana",NA,0.9144,NA,0.6096,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"238","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"264","3","Sabal palmetto",17.7871714641312,3.429,NA,2.5908,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"264","4","Juniperus virginiana",NA,2.8194,NA,5.334,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"264","2","Quercus virginiana",NA,0.9906,NA,2.1336,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"264","1","Juniperus virginiana",NA,0.762,NA,1.0668,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"279","4","Sabal palmetto",19.4041870517795,4.0386,NA,3.6576,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"279","1","Sabal palmetto",15.3616480826588,3.6576,NA,3.5052,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"279","2","Coccoloba uvifera",NA,2.4384,NA,1.524,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"279","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"293","4","Coccoloba uvifera",NA,2.5908,NA,4.1148,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"293","2","Quercus virginiana",NA,1.9812,NA,3.99288,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"293","1","Juniperus virginiana",NA,0.6858,NA,3.048,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"293","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"320","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"320","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"320","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"320","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"345","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"345","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"345","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"345","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"367","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"367","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"367","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"367","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong1","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong1","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong1","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong1","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong2","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong2","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong2","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-1",2021-03-09,"latlong2","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"10","3","Carya sp.",NA,1.524,NA,5.1816,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"10","2","Quercus virginiana",NA,1.4478,NA,4.2672,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"10","1","Carya sp.",NA,1.143,NA,1.2192,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"10","4","Carya sp.",NA,1.2192,NA,1.2192,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"22","4","Quercus virginiana",NA,1.8288,NA,4.2672,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"22","1","Carya sp.",NA,1.3716,NA,3.6576,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"22","3","Carya sp.",NA,1.3716,NA,3.6576,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"22","2","Carya sp.",NA,1.2192,NA,0.9144,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"28","1","Carya sp.",0.202126948456037,1.6764,NA,0.9906,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"28","2","Quercus virginiana",NA,1.0668,NA,5.1816,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"28","4","Quercus virginiana",NA,0.5334,NA,3.81,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"28","3","Carya sp.",NA,1.2192,NA,1.2192,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"97","4","Quercus virginiana",0.404253896912073,1.7526,NA,4.1148,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"97","3","Carya sp.",NA,1.143,NA,4.0386,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"97","2","Quercus virginiana",NA,1.24968,NA,3.5052,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"97","1","Carya sp.",NA,1.0668,NA,1.6764,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"99","4","Carya sp.",NA,0.6096,NA,2.7432,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"99","1","Carya sp.",NA,0.4572,NA,2.5908,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"99","3","Carya sp.",NA,1.0668,NA,2.4384,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-1",2021-03-09,"99","2","Juniperus virginiana",NA,0.762,NA,1.9812,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"119","1","Pinus elliottii",8.08507793824146,3.5052,NA,6.7056,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"119","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"119","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"119","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"131","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"131","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"131","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"131","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"139","3","Quercus virginiana",NA,1.2954,NA,5.4864,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"139","4","Quercus virginiana",NA,1.6764,NA,4.8768,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"139","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"139","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"176","4","Pinus elliottii",1.21276169073622,1.6764,NA,7.9248,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"176","3","Pinus elliottii",0.808507793824146,1.524,NA,5.4864,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"176","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"176","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"178","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"178","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"178","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-1",2021-03-09,"178","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"10","2","Quercus virginiana",0.635,1.8288,NA,1.8288,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"10","1","Juniperus virginiana",NA,0.97536,NA,2.1336,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"10","4","Juniperus virginiana",NA,1.00584,NA,1.8288,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"10","3","Juniperus virginiana",NA,0.70104,NA,1.2192,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"11","2","Ficus aurea",2.54,1.8288,NA,8.2296,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"11","4","Quercus virginiana",1.27,2.01168,NA,5.7912,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"11","1","Quercus virginiana",1.27,1.88976,NA,5.1816,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"11","3","Quercus virginiana",0.635,1.55448,NA,9.144,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"12","1","Quercus virginiana",NA,1.24968,NA,3.99288,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"12","2","Juniperus virginiana",NA,0.94488,NA,2.52984,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"12","4","Juniperus virginiana",NA,1.03632,NA,0.64008,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"12","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"13","4","Ficus aurea",1.27,2.22504,NA,2.52984,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"13","1","Bursera simaruba",1.27,1.58496,NA,1.6764,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"13","3","Bursera simaruba",0.635,1.8288,NA,8.5344,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"13","2","Bursera simaruba",NA,1.2192,NA,8.29056,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"14","3","Coccoloba uvifera",7.62,2.86512,NA,3.99288,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"14","2","Coccoloba uvifera",6.35,2.52984,NA,1.24968,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"14","1","Juniperus virginiana",NA,0.64008,NA,5.1816,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"14","4","Juniperus virginiana",NA,0.88392,NA,1.03632,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"15","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"15","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"15","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"15","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"16","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"16","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"16","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"16","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"17","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"17","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"17","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"17","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"18","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"18","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"18","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"18","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"19","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"19","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"19","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-2",2021-06-17,"19","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"0","2","Quercus virginiana",2.54,2.16408,NA,5.4864,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"0","3","Quercus virginiana",1.27,2.286,NA,3.3528,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"0","1","Quercus virginiana",0.635,1.85928,NA,5.7912,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"0","4","Carya sp.",NA,1.28016,NA,5.1816,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"1","4","Quercus virginiana",1.27,1.92024,NA,3.3528,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"1","2","Quercus virginiana",1.27,2.16408,NA,2.5908,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"1","3","Quercus virginiana",0.635,1.524,NA,1.8288,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"1","1","Carya sp.",NA,1.15824,NA,5.1816,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"2","1","Coccoloba uvifera",15.24,4.17576,NA,7.3152,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"2","2","Quercus virginiana",5.08,2.40792,NA,2.25552,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"2","4","Carya sp.",NA,1.18872,NA,3.10896,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"2","3","Quercus virginiana",NA,0.94488,NA,1.28016,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"3","3","Quercus virginiana",1.27,1.85928,NA,4.1148,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"3","2","Quercus virginiana",1.27,1.8288,NA,1.28016,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"3","1","Quercus virginiana",0.635,2.19456,NA,5.54736,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"3","4","Carya sp.",NA,1.3716,NA,2.1336,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"4","2","Quercus virginiana",0.635,2.04216,NA,7.0104,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"4","1","Quercus virginiana",0.635,1.85928,NA,6.4008,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"4","3","Quercus virginiana",0.635,1.6764,NA,5.30352,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-2",2021-06-17,"4","4","Quercus virginiana",0.635,1.92024,NA,1.61544,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"5","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"5","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"5","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"5","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"6","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"6","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"6","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"6","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"7","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"7","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"7","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"7","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"8","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"8","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"8","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"8","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"9","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"9","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"9","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-2",2021-06-17,"9","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"216","4","Juniperus virginiana",2.02126948456037,3.53568,NA,1.6764,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"216","3","Juniperus virginiana",NA,0.762,NA,1.92024,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"216","2","Coccoloba uvifera",NA,2.80416,NA,0.67056,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"216","1","Coccoloba uvifera",NA,2.77368,NA,0.48768,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"232","1","Bursera simaruba",1.21276169073622,2.5908,NA,0.70104,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"232","3","Bursera simaruba",0.60638084536811,2.1336,NA,0.94488,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"232","4","Celtis laevigata",0.202126948456037,1.8288,NA,0.36576,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"232","2","Juniperus virginiana",0.202126948456037,1.79832,NA,0.27432,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"257","3","Sabal palmetto",13.7446324950105,4.2672,NA,0.82296,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"257","2","Sabal palmetto",10.5106013197139,3.81,NA,0.3048,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"257","1","Ficus aurea",1.61701558764829,2.5908,NA,0.64008,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"257","4","Coccoloba uvifera",NA,2.7432,NA,0.64008,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"263","3","Quercus virginiana",0.202126948456037,1.7526,NA,0.73152,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"263","4","Bursera simaruba",0.202126948456037,1.85928,NA,0.64008,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"263","2","Juniperus virginiana",0.202126948456037,1.9812,NA,0.54864,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"263","1","Juniperus virginiana",NA,0.79248,NA,0.67056,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"294","1","Juniperus virginiana",2.02126948456037,2.8956,NA,0.36576,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"294","4","Quercus virginiana",0.202126948456037,1.6002,NA,2.5908,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"294","2","Quercus virginiana",NA,1.9812,NA,0.6096,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"294","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"305","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"305","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"305","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"305","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"315","2","Juniperus virginiana",2.02126948456037,2.8956,NA,2.65176,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"315","4","Bursera simaruba",0.60638084536811,2.19456,NA,1.0668,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"315","1","Quercus virginiana",0.404253896912073,1.9812,NA,0.97536,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"315","3","Celtis laevigata",0.202126948456037,1.9812,NA,1.2192,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"335","1","Ficus aurea",1.01063474228018,2.3622,NA,0.82296,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"335","2","Quercus virginiana",0.404253896912073,1.9812,NA,0.97536,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"335","3","Quercus virginiana",0.404253896912073,1.9812,NA,0.4572,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"335","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"346","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"346","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"346","3","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"346","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"365","4","Quercus virginiana",0.202126948456037,1.6764,NA,1.524,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"365","2","Quercus virginiana",NA,0.6096,NA,2.49936,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"365","1","Bursera simaruba",NA,1.09728,NA,2.286,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"365","3","Celtis laevigata",NA,1.15824,NA,0.67056,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"66","1","Quercus virginiana",0.202126948456037,1.8288,NA,1.64592,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"66","4","Quercus virginiana",NA,0.9144,NA,1.28016,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"66","3","Quercus virginiana",NA,1.2192,NA,1.09728,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"66","2","Carya sp.",NA,1.0668,NA,0.27432,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"86","4","Quercus virginiana",1.61701558764829,2.5908,NA,2.19456,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"86","1","Quercus virginiana",0.202126948456037,2.10312,NA,1.92024,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"86","3","Quercus virginiana",0.202126948456037,1.8288,NA,1.00584,NA
+"Robinson","Restoration","Robinson","Coastal Uplands","2021-4",2021-10-13,"86","2","Quercus virginiana",NA,0.94488,NA,0.70104,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"21","4","Quercus virginiana",0.202126948456037,1.9812,NA,1.40208,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"21","1","Quercus virginiana",0.202126948456037,1.9812,NA,0.70104,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"21","3","Quercus virginiana",NA,1.28016,NA,1.18872,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"21","2","Juniperus virginiana",NA,0.762,NA,0.39624,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"31","2","Quercus virginiana",0.404253896912073,1.905,NA,0.85344,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"31","4","Juniperus virginiana",0.404253896912073,1.9812,NA,0.79248,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"31","1","Quercus virginiana",0.202126948456037,2.0574,NA,0.94488,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"31","3","Quercus virginiana",0.202126948456037,1.8288,NA,0.4572,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"9","2","Quercus virginiana",1.01063474228018,2.3622,NA,0.36576,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"9","3","Quercus virginiana",NA,2.2098,NA,0.70104,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"9","1","Carya sp.",NA,1.143,NA,0.1524,NA
+"Robinson","Restoration","Robinson","Live Oak Hammock","2021-4",2021-10-13,"9","4","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"144","2","Pinus elliottii",NA,0.381,NA,2.4384,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"144","4","Pinus palustris",NA,0.2286,NA,2.286,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"144","1","Pinus palustris",NA,0.2286,NA,1.2192,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"144","3","Pinus palustris",NA,0.1524,NA,1.12776,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"147","3","Pinus palustris",NA,0.3048,NA,2.1336,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"147","1","Pinus palustris",NA,0.1524,NA,1.58496,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"147","4","Pinus palustris",NA,0.3048,NA,1.15824,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"147","2","Pinus palustris",NA,0.2286,NA,0.85344,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"147","1","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"154","2","Pinus palustris",NA,0.3048,NA,2.80416,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"154","3","Pinus palustris",NA,0.3048,NA,2.65176,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"154","4","Pinus palustris",NA,0.2286,NA,2.286,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"166","4","Pinus palustris",NA,0.1524,NA,1.9812,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"166","1","Pinus palustris",NA,0.1524,NA,1.0668,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"166","3","Pinus palustris",NA,0.2286,NA,0.39624,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"166","2","none",NA,NA,NA,NA,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"184","2","Quercus virginiana",0.202126948456037,1.55448,NA,2.1336,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"184","1","Juniperus virginiana",NA,0.67056,NA,1.55448,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"184","3","Pinus elliottii",NA,0.94488,NA,1.524,NA
+"Robinson","Restoration","Robinson","Pine Flatwoods","2021-4",2021-10-13,"184","4","Pinus elliottii",NA,0.8382,NA,0.51816,NA
