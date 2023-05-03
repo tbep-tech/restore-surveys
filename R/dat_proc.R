@@ -41,6 +41,7 @@ vegdat <- vegraw %>%
   arrange(site, trt)
 
 save(vegdat, file = here('data/vegdat.RData'))
+write.csv(vegdat, file = here('data/vegdat.csv'), row.names = F)
 
 # get tree data -----------------------------------------------------------
 
@@ -76,3 +77,4 @@ treedat <- treeraw %>%
   )
 
 save(treedat, file = here('data/treedat.RData'))
+write.csv(treedat, file = here('data/treedat.csv'), row.names = F)
